@@ -1,0 +1,606 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=504;
+	taxlabels
+	_Otu0001_2920_Amphisorus_SpS
+	_Otu0001_2922_Amphisorus_SpS
+	_Otu0001_3699_Amphisorus_SpL_1
+	_Otu0001_3699_Amphisorus_SpL_2
+	_Otu0001_3701_Amphisorus_SpL
+	_Otu0001_3702_Amphisorus_SpL
+	_Otu0001_3703_Amphisorus_SpL
+	_Otu0001_3704_Amphisorus_SpL_1
+	_Otu0001_3704_Amphisorus_SpL_2
+	_Otu0001_3705_Amphisorus_SpL_1
+	_Otu0001_3705_Amphisorus_SpL_2
+	_Otu0001_3706_Amphisorus_SpL_1
+	_Otu0001_3706_Amphisorus_SpL_2
+	_Otu0001_3707_Amphisorus_SpL
+	_Otu0001_3708_Amphisorus_SpL_1
+	_Otu0001_3708_Amphisorus_SpL_2
+	_Otu0001_3754_Amphisorus_SpL_1
+	_Otu0001_3754_Amphisorus_SpL_2
+	_Otu0001_3755_Amphisorus_SpL_1
+	_Otu0001_3755_Amphisorus_SpL_2
+	_Otu0001_3756_Amphisorus_SpL
+	_Otu0001_3757_Amphisorus_SpL_1
+	_Otu0001_3757_Amphisorus_SpL_2
+	_Otu0001_3758_Amphisorus_SpL
+	_Otu0001_3759_Amphisorus_SpL_1
+	_Otu0001_3759_Amphisorus_SpL_2
+	_Otu0002_2924_Amphisorus_SpS_1
+	_Otu0002_2924_Amphisorus_SpS_2
+	_Otu0002_2931_Amphisorus_SpS
+	_Otu0002_2932_Amphisorus_SpS
+	_Otu0002_2933_Amphisorus_SpS
+	_Otu0004_3476_Sorites_sp_1
+	_Otu0004_3476_Sorites_sp_2
+	_Otu0005_3482_Nummulites_venosus_1
+	_Otu0005_3482_Nummulites_venosus_2
+	_Otu0005_3483_Nummulites_venosus_1
+	_Otu0005_3483_Nummulites_venosus_2
+	_Otu0005_3483_Nummulites_venosus_3
+	_Otu0005_3484_Nummulites_venosus
+	_Otu0005_3722_Nummulites_venosus_1
+	_Otu0005_3722_Nummulites_venosus_2
+	_Otu0005_3739_Nummulites_venosus_1
+	_Otu0005_3739_Nummulites_venosus_2
+	_Otu0006_2923_Marginopora_vertebralis
+	_Otu0006_2925_Marginopora_vertebralis
+	_Otu0006_2926_Marginopora_vertebralis
+	_Otu0006_2927_Marginopora_vertebralis
+	_Otu0006_2928_Marginopora_vertebralis
+	_Otu0007_3482_Nummulites_venosus_1
+	_Otu0007_3482_Nummulites_venosus_2
+	_Otu0007_3484_Nummulites_venosus
+	_Otu0007_3722_Nummulites_venosus_1
+	_Otu0007_3722_Nummulites_venosus_2
+	_Otu0007_3739_Nummulites_venosus_1
+	_Otu0007_3739_Nummulites_venosus_2
+	_Otu0008_3482_Nummulites_venosus_1
+	_Otu0008_3482_Nummulites_venosus_2
+	_Otu0008_3484_Nummulites_venosus
+	_Otu0008_3722_Nummulites_venosus_1
+	_Otu0008_3722_Nummulites_venosus_2
+	_Otu0009_2901_Operculina_ammonoides
+	_Otu0009_2903_Operculina_ammonoides
+	_Otu0009_2904_Operculina_ammonoides
+	_Otu0009_2905_Operculina_ammonoides
+	_Otu0009_2906_Operculina_ammonoides
+	_Otu0009_2907_Operculina_ammonoides
+	_Otu0009_3713_Operculina_ammonoides
+	_Otu0009_3719_Operculina_LKI27type_1
+	_Otu0009_3719_Operculina_LKI27type_2
+	_Otu0009_3727_Operculina_ammonoides_1
+	_Otu0009_3727_Operculina_ammonoides_2
+	_Otu0010_3482_Nummulites_venosus
+	_Otu0010_3483_Nummulites_venosus_1
+	_Otu0010_3483_Nummulites_venosus_2
+	_Otu0010_3483_Nummulites_venosus_3
+	_Otu0010_3484_Nummulites_venosus
+	_Otu0010_3722_Nummulites_venosus_1
+	_Otu0010_3722_Nummulites_venosus_2
+	_Otu0010_3739_Nummulites_venosus_1
+	_Otu0010_3739_Nummulites_venosus_2
+	_Otu0011_2901_Operculina_ammonoides
+	_Otu0011_2903_Operculina_ammonoides
+	_Otu0011_2904_Operculina_ammonoides
+	_Otu0011_2905_Operculina_ammonoides
+	_Otu0011_2906_Operculina_ammonoides
+	_Otu0011_3719_Operculina_LKI27type_1
+	_Otu0011_3719_Operculina_LKI27type_2
+	_Otu0011_3727_Operculina_ammonoides_1
+	_Otu0011_3727_Operculina_ammonoides_2
+	_Otu0012_2903_Operculina_ammonoides
+	_Otu0012_2904_Operculina_ammonoides
+	_Otu0012_2905_Operculina_ammonoides
+	_Otu0012_2907_Operculina_ammonoides
+	_Otu0012_3719_Operculina_LKI27type_1
+	_Otu0012_3719_Operculina_LKI27type_2
+	_Otu0012_3725_Operculina_ammonoides
+	_Otu0012_3727_Operculina_ammonoides_1
+	_Otu0012_3727_Operculina_ammonoides_2
+	_Otu0013_2901_Operculina_ammonoides
+	_Otu0013_2903_Operculina_ammonoides
+	_Otu0013_2904_Operculina_ammonoides
+	_Otu0013_2905_Operculina_ammonoides
+	_Otu0013_2906_Operculina_ammonoides
+	_Otu0013_2907_Operculina_ammonoides
+	_Otu0013_3719_Operculina_LKI27type_1
+	_Otu0013_3719_Operculina_LKI27type_2
+	_Otu0013_3727_Operculina_ammonoides_1
+	_Otu0013_3727_Operculina_ammonoides_2
+	_Otu0014_2905_Operculina_ammonoides
+	_Otu0014_2906_Operculina_ammonoides
+	_Otu0014_2907_Operculina_ammonoides
+	_Otu0014_3713_Operculina_ammonoides
+	_Otu0014_3719_Operculina_LKI27type_1
+	_Otu0014_3719_Operculina_LKI27type_2
+	_Otu0014_3727_Operculina_ammonoides_1
+	_Otu0014_3727_Operculina_ammonoides_2
+	_Otu0015_3740_Operculinella_cummingi_1
+	_Otu0015_3740_Operculinella_cummingi_2
+	_Otu0016_2903_Operculina_ammonoides
+	_Otu0016_2905_Operculina_ammonoides
+	_Otu0016_2906_Operculina_ammonoides
+	_Otu0016_3713_Operculina_ammonoides
+	_Otu0016_3719_Operculina_LKI27type_1
+	_Otu0016_3719_Operculina_LKI27type_2
+	_Otu0017_3505_Neorotalia_gaimardi_1
+	_Otu0017_3505_Neorotalia_gaimardi_2
+	_Otu0017_3510_Neorotalia_gaimardi
+	_Otu0018_2923_Marginopora_vertebralis
+	_Otu0018_2925_Marginopora_vertebralis
+	_Otu0018_2926_Marginopora_vertebralis
+	_Otu0018_2927_Marginopora_vertebralis
+	_Otu0018_2928_Marginopora_vertebralis
+	_Otu0019_3740_Operculinella_cummingi_1
+	_Otu0019_3740_Operculinella_cummingi_2
+	_Otu0020_2905_Operculina_ammonoides
+	_Otu0020_2906_Operculina_ammonoides
+	_Otu0020_2907_Operculina_ammonoides
+	_Otu0020_3727_Operculina_ammonoides_1
+	_Otu0020_3727_Operculina_ammonoides_2
+	_Otu0021_2926_Marginopora_vertebralis
+	_Otu0022_3508_Neorotalia_calcar
+	_Otu0023_3711_Nummulites_venosus_1
+	_Otu0023_3711_Nummulites_venosus_2
+	_Otu0024_3740_Operculinella_cummingi_1
+	_Otu0024_3740_Operculinella_cummingi_2
+	_Otu0025_3485_Parasorites_sp
+	_Otu0026_2944_Amphistegina_radiata
+	_Otu0026_2946_Amphistegina_radiata_1
+	_Otu0026_2946_Amphistegina_radiata_2
+	_Otu0026_2947_Amphistegina_radiata
+	_Otu0027_2901_Operculina_ammonoides
+	_Otu0027_2904_Operculina_ammonoides
+	_Otu0027_3713_Operculina_ammonoides
+	_Otu0028_2943_Amphistegina_radiata_1
+	_Otu0028_2943_Amphistegina_radiata_2
+	_Otu0028_2944_Amphistegina_radiata
+	_Otu0028_2945_Amphistegina_radiata
+	_Otu0028_2946_Amphistegina_radiata_1
+	_Otu0028_2946_Amphistegina_radiata_2
+	_Otu0028_2947_Amphistegina_radiata
+	_Otu0029_3720_Operculina_complanata_1
+	_Otu0029_3720_Operculina_complanata_2
+	_Otu0030_2943_Amphistegina_radiata_1
+	_Otu0030_2943_Amphistegina_radiata_2
+	_Otu0030_2944_Amphistegina_radiata
+	_Otu0030_2946_Amphistegina_radiata
+	_Otu0031_3720_Operculina_complanata_1
+	_Otu0031_3720_Operculina_complanata_2
+	_Otu0032_2943_Amphistegina_radiata
+	_Otu0032_2944_Amphistegina_radiata
+	_Otu0032_2945_Amphistegina_radiata
+	_Otu0032_2946_Amphistegina_radiata_1
+	_Otu0032_2946_Amphistegina_radiata_2
+	_Otu0032_2947_Amphistegina_radiata
+	_Otu0033_2894_Calcarina_sp2
+	_Otu0033_2895_Calcarina_sp2_1
+	_Otu0033_2895_Calcarina_sp2_2
+	_Otu0034_3713_Operculina_ammonoides
+	_Otu0034_3719_Operculina_LKI27type_1
+	_Otu0034_3719_Operculina_LKI27type_2
+	_Otu0035_2903_Operculina_ammonoides
+	_Otu0035_2905_Operculina_ammonoides
+	_Otu0035_2906_Operculina_ammonoides
+	_Otu0036_3505_Neorotalia_gaimardi_1
+	_Otu0036_3505_Neorotalia_gaimardi_2
+	_Otu0036_3510_Neorotalia_gaimardi
+	_Otu0037_2944_Amphistegina_radiata
+	_Otu0037_2946_Amphistegina_radiata_1
+	_Otu0037_2946_Amphistegina_radiata_2
+	_Otu0037_2947_Amphistegina_radiata
+	_Otu0038_2943_Amphistegina_radiata_1
+	_Otu0038_2943_Amphistegina_radiata_2
+	_Otu0038_2945_Amphistegina_radiata
+	_Otu0038_2946_Amphistegina_radiata
+	_Otu0039_3725_Operculina_ammonoides_1
+	_Otu0039_3725_Operculina_ammonoides_2
+	_Otu0040_2946_Amphistegina_radiata
+	_Otu0040_2947_Amphistegina_radiata
+	_Otu0041_3505_Neorotalia_gaimardi_1
+	_Otu0041_3505_Neorotalia_gaimardi_2
+	_Otu0041_3510_Neorotalia_gaimardi
+	_Otu0042_3508_Neorotalia_calcar
+	_Otu0043_3508_Neorotalia_calcar
+	_Otu0044_2944_Amphistegina_radiata
+	_Otu0044_2945_Amphistegina_radiata
+	_Otu0044_2946_Amphistegina_radiata_1
+	_Otu0044_2946_Amphistegina_radiata_2
+	_Otu0045_2945_Amphistegina_radiata
+	_Otu0045_2946_Amphistegina_radiata_1
+	_Otu0045_2946_Amphistegina_radiata_2
+	_Otu0046_3505_Neorotalia_gaimardi_1
+	_Otu0046_3505_Neorotalia_gaimardi_2
+	_Otu0046_3510_Neorotalia_gaimardi
+	_Otu0047_2943_Amphistegina_radiata_1
+	_Otu0047_2943_Amphistegina_radiata_2
+	_Otu0048_2901_Operculina_ammonoides
+	_Otu0048_2904_Operculina_ammonoides
+	_Otu0048_3713_Operculina_ammonoides
+	_Otu0049_2943_Amphistegina_radiata
+	_Otu0049_2947_Amphistegina_radiata
+	_Otu0050_2946_Amphistegina_radiata
+	_Otu0051_2945_Amphistegina_radiata
+	_Otu0051_2946_Amphistegina_radiata_1
+	_Otu0051_2946_Amphistegina_radiata_2
+	_Otu0051_2947_Amphistegina_radiata
+	_Otu0052_2943_Amphistegina_radiata_1
+	_Otu0052_2943_Amphistegina_radiata_2
+	_Otu0052_2945_Amphistegina_radiata
+	_Otu0052_2946_Amphistegina_radiata_1
+	_Otu0052_2946_Amphistegina_radiata_2
+	_Otu0053_2943_Amphistegina_radiata
+	_Otu0054_2901_Operculina_ammonoides
+	_Otu0054_2904_Operculina_ammonoides
+	_Otu0055_3748_Calcarina_sp1
+	_Otu0056_2943_Amphistegina_radiata
+	_Otu0057_2901_Operculina_ammonoides
+	_Otu0057_2904_Operculina_ammonoides
+	_Otu0057_3713_Operculina_ammonoides
+	_Otu0057_3719_Operculina_LKI27type_1
+	_Otu0057_3719_Operculina_LKI27type_2
+	_Otu0057_3727_Operculina_ammonoides
+	_Otu0058_3704_Amphisorus_SpL
+	_Otu0058_3706_Amphisorus_SpL
+	_Otu0059_2943_Amphistegina_radiata
+	_Otu0059_2944_Amphistegina_radiata
+	_Otu0059_2945_Amphistegina_radiata
+	_Otu0060_3482_Nummulites_venosus
+	_Otu0060_3483_Nummulites_venosus_1
+	_Otu0060_3483_Nummulites_venosus_2
+	_Otu0060_3484_Nummulites_venosus
+	_Otu0060_3722_Nummulites_venosus
+	_Otu0061_3711_Nummulites_venosus_1
+	_Otu0061_3711_Nummulites_venosus_2
+	_Otu0062_3712_Nummulites_venosus
+	_Otu0063_3508_Neorotalia_calcar
+	_Otu0064_3505_Neorotalia_gaimardi_1
+	_Otu0064_3505_Neorotalia_gaimardi_2
+	_Otu0066_2943_Amphistegina_radiata
+	_Otu0066_2944_Amphistegina_radiata
+	_Otu0067_2943_Amphistegina_radiata
+	_Otu0068_2946_Amphistegina_radiata
+	_Otu0069_3719_Operculina_LKI27type_1
+	_Otu0069_3719_Operculina_LKI27type_2
+	_Otu0070_3508_Neorotalia_calcar
+	_Otu0071_2943_Amphistegina_radiata
+	_Otu0071_2947_Amphistegina_radiata
+	_Otu0072_3508_Neorotalia_calcar
+	_Otu0073_3508_Neorotalia_calcar
+	_Otu0074_2945_Amphistegina_radiata
+	_Otu0074_2947_Amphistegina_radiata
+	_Otu0075_2903_Operculina_ammonoides
+	_Otu0075_2904_Operculina_ammonoides
+	_Otu0075_2907_Operculina_ammonoides
+	_Otu0076_3725_Operculina_ammonoides_1
+	_Otu0076_3725_Operculina_ammonoides_2
+	_Otu0077_3508_Neorotalia_calcar
+	_Otu0078_3508_Neorotalia_calcar
+	_Otu0079_3723_Parasorites_sp
+	_Otu0080_3722_Nummulites_venosus_1
+	_Otu0080_3722_Nummulites_venosus_2
+	_Otu0080_3739_Nummulites_venosus
+	_Otu0082_2946_Amphistegina_radiata
+	_Otu0083_2943_Amphistegina_radiata
+	_Otu0084_2943_Amphistegina_radiata
+	_Otu0085_3719_Operculina_LKI27type
+	_Otu0086_3723_Parasorites_sp_1
+	_Otu0086_3723_Parasorites_sp_2
+	_Otu0086_3725_Operculina_ammonoides_1
+	_Otu0086_3725_Operculina_ammonoides_2
+	_Otu0087_3508_Neorotalia_calcar
+	_Otu0088_2943_Amphistegina_radiata_1
+	_Otu0088_2943_Amphistegina_radiata_2
+	_Otu0089_3485_Parasorites_sp
+	_Otu0090_2946_Amphistegina_radiata
+	_Otu0091_2943_Amphistegina_radiata
+	_Otu0091_2944_Amphistegina_radiata
+	_Otu0092_2947_Amphistegina_radiata
+	_Otu0094_3505_Neorotalia_gaimardi_1
+	_Otu0094_3505_Neorotalia_gaimardi_2
+	_Otu0094_3510_Neorotalia_gaimardi
+	_Otu0095_2946_Amphistegina_radiata
+	_Otu0097_2903_Operculina_ammonoides
+	_Otu0097_2905_Operculina_ammonoides
+	_Otu0097_2906_Operculina_ammonoides
+	_Otu0097_3713_Operculina_ammonoides
+	_Otu0098_3482_Nummulites_venosus
+	_Otu0098_3484_Nummulites_venosus
+	_Otu0098_3722_Nummulites_venosus_1
+	_Otu0098_3722_Nummulites_venosus_2
+	_Otu0099_3719_Operculina_LKI27type_1
+	_Otu0099_3719_Operculina_LKI27type_2
+	_Otu0101_2943_Amphistegina_radiata_1
+	_Otu0101_2943_Amphistegina_radiata_2
+	_Otu0101_2944_Amphistegina_radiata
+	_Otu0102_2943_Amphistegina_radiata
+	_Otu0104_2943_Amphistegina_radiata
+	_Otu0105_2906_Operculina_ammonoides
+	_Otu0105_3727_Operculina_ammonoides
+	_Otu0106_2894_Calcarina_sp2
+	_Otu0106_2895_Calcarina_sp2_1
+	_Otu0106_2895_Calcarina_sp2_2
+	_Otu0107_3740_Operculinella_cummingi_1
+	_Otu0107_3740_Operculinella_cummingi_2
+	_Otu0110_3505_Neorotalia_gaimardi
+	_Otu0112_2943_Amphistegina_radiata
+	_Otu0113_3712_Nummulites_venosus
+	_Otu0114_2946_Amphistegina_radiata
+	_Otu0116_3505_Neorotalia_gaimardi
+	_Otu0118_3483_Nummulites_venosus_1
+	_Otu0118_3483_Nummulites_venosus_2
+	_Otu0118_3739_Nummulites_venosus
+	_Otu0120_3505_Neorotalia_gaimardi
+	_Otu0121_3727_Operculina_ammonoides
+	_Otu0122_3505_Neorotalia_gaimardi_1
+	_Otu0122_3505_Neorotalia_gaimardi_2
+	_Otu0123_3719_Operculina_LKI27type_1
+	_Otu0123_3719_Operculina_LKI27type_2
+	_Otu0126_3508_Neorotalia_calcar
+	_Otu0127_2944_Amphistegina_radiata
+	_Otu0130_3505_Neorotalia_gaimardi_1
+	_Otu0130_3505_Neorotalia_gaimardi_2
+	_Otu0133_3711_Nummulites_venosus_1
+	_Otu0133_3711_Nummulites_venosus_2
+	_Otu0134_3719_Operculina_LKI27type_1
+	_Otu0134_3719_Operculina_LKI27type_2
+	_Otu0135_2947_Amphistegina_radiata
+	_Otu0138_3713_Operculina_ammonoides
+	_Otu0138_3719_Operculina_LKI27type_1
+	_Otu0138_3719_Operculina_LKI27type_2
+	_Otu0139_2943_Amphistegina_radiata
+	_Otu0140_2907_Operculina_ammonoides
+	_Otu0147_3720_Operculina_complanata_1
+	_Otu0147_3720_Operculina_complanata_2
+	_Otu0151_3505_Neorotalia_gaimardi_1
+	_Otu0151_3505_Neorotalia_gaimardi_2
+	_Otu0152_3740_Operculinella_cummingi_1
+	_Otu0152_3740_Operculinella_cummingi_2
+	_Otu0154_3720_Operculina_complanata_1
+	_Otu0154_3720_Operculina_complanata_2
+	_Otu0157_3740_Operculinella_cummingi_1
+	_Otu0157_3740_Operculinella_cummingi_2
+	_Otu0160_3731_Alveolinella_quoyi
+	_Otu0163_2926_Marginopora_vertebralis
+	_Otu0165_3759_Amphisorus_SpL
+	_Otu0168_2947_Amphistegina_radiata
+	_Otu0172_3505_Neorotalia_gaimardi
+	_Otu0175_2944_Amphistegina_radiata
+	_Otu0176_3508_Neorotalia_calcar
+	_Otu0180_3713_Operculina_ammonoides
+	_Otu0181_3709_Nummulites_venosus
+	_Otu0185_3731_Alveolinella_quoyi
+	_Otu0189_2901_Operculina_ammonoides
+	_Otu0190_3739_Nummulites_venosus_1
+	_Otu0190_3739_Nummulites_venosus_2
+	_Otu0195_2945_Amphistegina_radiata
+	_Otu0196_3723_Parasorites_sp
+	_Otu0197_3510_Neorotalia_gaimardi
+	_Otu0198_2945_Amphistegina_radiata
+	_Otu0199_2945_Amphistegina_radiata
+	_Otu0201_3748_Calcarina_sp1
+	_Otu0202_3505_Neorotalia_gaimardi
+	_Otu0204_3510_Neorotalia_gaimardi
+	_Otu0210_2894_Calcarina_sp2
+	_Otu0210_2895_Calcarina_sp2_1
+	_Otu0210_2895_Calcarina_sp2_2
+	_Otu0212_3734_Alveolinella_quoyi
+	_Otu0214_3705_Amphisorus_SpL
+	_Otu0215_2944_Amphistegina_radiata
+	_Otu0216_3510_Neorotalia_gaimardi
+	_Otu0217_3505_Neorotalia_gaimardi
+	_Otu0219_2894_Calcarina_sp2
+	_Otu0223_3702_Amphisorus_SpL
+	_Otu0224_3709_Nummulites_venosus
+	_Otu0225_3720_Operculina_complanata_1
+	_Otu0225_3720_Operculina_complanata_2
+	_Otu0232_3723_Parasorites_sp
+	_Otu0238_3759_Amphisorus_SpL
+	_Otu0243_2945_Amphistegina_radiata
+	_Otu0246_2905_Operculina_ammonoides
+	_Otu0248_3720_Operculina_complanata_1
+	_Otu0248_3720_Operculina_complanata_2
+	_Otu0250_3510_Neorotalia_gaimardi
+	_Otu0253_3725_Operculina_ammonoides_1
+	_Otu0253_3725_Operculina_ammonoides_2
+	_Otu0256_3720_Operculina_complanata
+	_Otu0266_3510_Neorotalia_gaimardi
+	_Otu0272_3707_Amphisorus_SpL
+	_Otu0273_2945_Amphistegina_radiata
+	_Otu0276_3711_Nummulites_venosus_1
+	_Otu0276_3711_Nummulites_venosus_2
+	_Otu0279_3712_Nummulites_venosus
+	_Otu0281_2925_Marginopora_vertebralis
+	_Otu0283_2926_Marginopora_vertebralis
+	_Otu0285_2925_Marginopora_vertebralis
+	_Otu0286_3510_Neorotalia_gaimardi
+	_Otu0291_2925_Marginopora_vertebralis
+	_Otu0295_3711_Nummulites_venosus
+	_Otu0305_3701_Amphisorus_SpL
+	_Otu0306_3712_Nummulites_venosus
+	_Otu0309_3748_Calcarina_sp1
+	_Otu0315_3725_Operculina_ammonoides_1
+	_Otu0315_3725_Operculina_ammonoides_2
+	_Otu0319_3711_Nummulites_venosus
+	_Otu0323_2943_Amphistegina_radiata
+	_Otu0323_2945_Amphistegina_radiata
+	_Otu0323_2946_Amphistegina_radiata
+	_Otu0330_3746_Calcarina_sp1
+	_Otu0331_2894_Calcarina_sp2
+	_Otu0336_2945_Amphistegina_radiata
+	_Otu0336_2946_Amphistegina_radiata
+	_Otu0340_3731_Alveolinella_quoyi
+	_Otu0346_3711_Nummulites_venosus
+	_Otu0356_3725_Operculina_ammonoides
+	_Otu0362_3701_Amphisorus_SpL
+	_Otu0363_3748_Calcarina_sp1
+	_Otu0369_3731_Alveolinella_quoyi
+	_Otu0372_2894_Calcarina_sp2
+	_Otu0372_2895_Calcarina_sp2_1
+	_Otu0372_2895_Calcarina_sp2_2
+	_Otu0375_3725_Operculina_ammonoides
+	_Otu0389_2944_Amphistegina_radiata
+	_Otu0389_2945_Amphistegina_radiata
+	_Otu0389_2947_Amphistegina_radiata
+	_Otu0397_3723_Parasorites_sp
+	_Otu0411_2945_Amphistegina_radiata
+	_Otu0411_2946_Amphistegina_radiata_1
+	_Otu0411_2946_Amphistegina_radiata_2
+	_Otu0420_3725_Operculina_ammonoides
+	_Otu0451_3712_Nummulites_venosus
+	_Otu0466_2894_Calcarina_sp2
+	_Otu0470_2894_Calcarina_sp2
+	_Otu0503_3731_Alveolinella_quoyi
+	_Otu0538_3709_Nummulites_venosus
+	_Otu0538_3712_Nummulites_venosus
+	_Otu0539_3731_Alveolinella_quoyi
+	_Otu0546_3758_Amphisorus_SpL
+	_Otu0559_3712_Nummulites_venosus
+	_Otu0564_3709_Nummulites_venosus
+	_Otu0566_3748_Calcarina_sp1
+	_Otu0575_2895_Calcarina_sp2_1
+	_Otu0575_2895_Calcarina_sp2_2
+	_Otu0593_3709_Nummulites_venosus
+	_Otu0597_3490_Parasorites_sp
+	_Otu0603_3731_Alveolinella_quoyi
+	_Otu0611_3709_Nummulites_venosus
+	_Otu0624_3702_Amphisorus_SpL
+	_Otu0629_3720_Operculina_complanata
+	_Otu0635_3709_Nummulites_venosus
+	_Otu0651_2945_Amphistegina_radiata
+	_Otu0669_3709_Nummulites_venosus
+	_Otu0674_3734_Alveolinella_quoyi
+	_Otu0680_3709_Nummulites_venosus
+	_Otu0690_3713_Operculina_ammonoides
+	_Otu0724_3722_Nummulites_venosus
+	_Otu0736_3709_Nummulites_venosus
+	_Otu0795_3482_Nummulites_venosus
+	_Otu0804_3709_Nummulites_venosus
+	_Otu0835_3731_Alveolinella_quoyi
+	_Otu0846_3734_Alveolinella_quoyi
+	_Otu0852_3725_Operculina_ammonoides
+	_Otu0867_3746_Calcarina_sp1
+	_Otu0891_2927_Marginopora_vertebralis
+	_Otu0913_2894_Calcarina_sp2
+	_Otu0915_2894_Calcarina_sp2
+	_Otu0915_2895_Calcarina_sp2_1
+	_Otu0915_2895_Calcarina_sp2_2
+	_Otu0997_3485_Parasorites_sp
+	_Otu0997_3488_Parasorites_sp
+	_Otu0997_3489_Parasorites_sp
+	_Otu0997_3490_Parasorites_sp
+	_Otu0997_3492_Parasorites_sp
+	_Otu0997_3723_Parasorites_sp_1
+	_Otu0997_3723_Parasorites_sp_2
+	_Otu1058_2925_Marginopora_vertebralis
+	_Otu1098_3720_Operculina_complanata_1
+	_Otu1098_3720_Operculina_complanata_2
+	_Otu1140_3731_Alveolinella_quoyi
+	_Otu1178_3720_Operculina_complanata
+	_Otu1181_3722_Nummulites_venosus
+	_Otu1190_2894_Calcarina_sp2
+	_Otu1190_2895_Calcarina_sp2_1
+	_Otu1190_2895_Calcarina_sp2_2
+	_Otu1268_3731_Alveolinella_quoyi
+	_Otu1380_3731_Alveolinella_quoyi
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (_Otu0212_3734_Alveolinella_quoyi:2.0E-6,_Otu0674_3734_Alveolinella_quoyi:0.00349,((((((_Otu0846_3734_Alveolinella_quoyi:0.131097,_Otu0356_3725_Operculina_ammonoides:0.177849)49:0.018304,(_Otu0062_3712_Nummulites_venosus:3.0E-6,_Otu0279_3712_Nummulites_venosus:0.003889)100:0.111534)99:0.085792,(_Otu0611_3709_Nummulites_venosus:0.084216,(((_Otu0086_3725_Operculina_ammonoides_1:0.0,_Otu0086_3723_Parasorites_sp_2:0.0):0.0,_Otu0086_3723_Parasorites_sp_1:0.0):3.0E-6,_Otu0086_3725_Operculina_ammonoides_2:3.0E-6)100:0.501748)31:0.00493)62:0.109218,(((((_Otu0603_3731_Alveolinella_quoyi:2.0E-6,_Otu1268_3731_Alveolinella_quoyi:0.005067)91:2.0E-6,_Otu1380_3731_Alveolinella_quoyi:0.005124)97:0.032322,_Otu0597_3490_Parasorites_sp:3.0E-6)84:0.071667,((_Otu0315_3725_Operculina_ammonoides_1:3.0E-6,_Otu0315_3725_Operculina_ammonoides_2:3.0E-6)80:2.0E-6,_Otu0852_3725_Operculina_ammonoides:0.006832)98:0.019068)87:0.215348,_Otu0362_3701_Amphisorus_SpL:0.394876)64:0.046297)18:0.015621,(((((_Otu0185_3731_Alveolinella_quoyi:2.0E-6,_Otu0539_3731_Alveolinella_quoyi:0.005056)100:0.191393,(((((((_Otu0022_3508_Neorotalia_calcar:3.0E-6,((_Otu0063_3508_Neorotalia_calcar:0.004663,((_Otu0042_3508_Neorotalia_calcar:0.016959,(_Otu0072_3508_Neorotalia_calcar:0.005362,_Otu0087_3508_Neorotalia_calcar:0.00543)100:0.011963)85:0.005438,_Otu0078_3508_Neorotalia_calcar:3.0E-6)100:0.124414)45:1.72E-4,(_Otu0043_3508_Neorotalia_calcar:0.005172,(_Otu0070_3508_Neorotalia_calcar:3.0E-6,(_Otu0073_3508_Neorotalia_calcar:3.0E-6,_Otu0077_3508_Neorotalia_calcar:0.010374)92:0.005207)64:2.0E-6)84:0.005193)38:2.0E-6)22:2.0E-6,_Otu0126_3508_Neorotalia_calcar:0.004888)87:0.004854,_Otu0176_3508_Neorotalia_calcar:2.0E-6)100:0.214911,((((((_Otu0238_3759_Amphisorus_SpL:3.0E-6,_Otu0305_3701_Amphisorus_SpL:0.003689)100:0.015387,((_Otu0055_3748_Calcarina_sp1:2.0E-6,_Otu0309_3748_Calcarina_sp1:0.00375)100:0.00372,(_Otu0076_3725_Operculina_ammonoides_1:3.0E-6,_Otu0076_3725_Operculina_ammonoides_2:2.0E-6)50:3.0E-6)42:3.0E-6)99:0.055262,_Otu0420_3725_Operculina_ammonoides:3.0E-6)98:0.018674,((_Otu0039_3725_Operculina_ammonoides_1:2.0E-6,_Otu0039_3725_Operculina_ammonoides_2:2.0E-6)87:2.0E-6,(_Otu0253_3725_Operculina_ammonoides_1:2.0E-6,_Otu0253_3725_Operculina_ammonoides_2:2.0E-6)100:0.003591)100:0.011521)98:0.012105,(_Otu0635_3709_Nummulites_venosus:0.015779,_Otu0669_3709_Nummulites_venosus:0.004879)100:0.168723)98:0.025632,_Otu0291_2925_Marginopora_vertebralis:0.009196)100:0.098984)72:0.071454,(((((((((((((((((((((((_Otu0005_3482_Nummulites_venosus_1:0.0,_Otu0005_3722_Nummulites_venosus_2:0.0):0.0,_Otu0005_3739_Nummulites_venosus_2:0.0):0.0,_Otu0005_3483_Nummulites_venosus_2:0.0):0.0,_Otu0005_3739_Nummulites_venosus_1:0.0):0.0,_Otu0005_3483_Nummulites_venosus_3:0.0):0.0,_Otu0005_3722_Nummulites_venosus_1:0.0):0.0,_Otu0005_3484_Nummulites_venosus:0.0):0.0,_Otu0005_3483_Nummulites_venosus_1:0.0):3.0E-6,_Otu0005_3482_Nummulites_venosus_2:3.0E-6)83:2.0E-6,((((_Otu0060_3482_Nummulites_venosus:0.0,_Otu0060_3483_Nummulites_venosus_2:0.0):0.0,_Otu0060_3722_Nummulites_venosus:0.0):0.0,_Otu0060_3484_Nummulites_venosus:0.0):3.0E-6,_Otu0060_3483_Nummulites_venosus_1:2.0E-6)98:0.003332)62:2.0E-6,((_Otu0190_3739_Nummulites_venosus_1:2.0E-6,_Otu0190_3739_Nummulites_venosus_2:2.0E-6)100:0.003323,((((_Otu0029_3720_Operculina_complanata_1:3.0E-6,_Otu0029_3720_Operculina_complanata_2:2.0E-6)81:2.0E-6,(((_Otu0147_3720_Operculina_complanata_1:2.0E-6,_Otu0147_3720_Operculina_complanata_2:2.0E-6)91:3.0E-6,(_Otu0629_3720_Operculina_complanata:3.0E-6,_Otu1178_3720_Operculina_complanata:2.0E-6)77:0.003323)64:0.003308,(_Otu1098_3720_Operculina_complanata_1:3.0E-6,_Otu1098_3720_Operculina_complanata_2:3.0E-6)99:0.003921)62:2.0E-6)32:2.0E-6,(_Otu0248_3720_Operculina_complanata_1:3.0E-6,_Otu0248_3720_Operculina_complanata_2:3.0E-6)99:0.003332)86:0.003348,(((_Otu0031_3720_Operculina_complanata_1:2.0E-6,_Otu0031_3720_Operculina_complanata_2:2.0E-6)83:2.0E-6,(_Otu0225_3720_Operculina_complanata_1:3.0E-6,_Otu0225_3720_Operculina_complanata_2:3.0E-6)98:0.003299)68:2.0E-6,(_Otu0154_3720_Operculina_complanata_1:3.0E-6,_Otu0154_3720_Operculina_complanata_2:3.0E-6)100:0.003275)79:0.003277)98:0.003402)95:0.003309)96:0.006734,((((((((_Otu0010_3482_Nummulites_venosus:0.0,_Otu0010_3483_Nummulites_venosus_3:0.0):0.0,_Otu0010_3722_Nummulites_venosus_2:0.0):0.0,_Otu0010_3483_Nummulites_venosus_2:0.0):0.0,_Otu0010_3739_Nummulites_venosus_1:0.0):0.0,_Otu0010_3484_Nummulites_venosus:0.0):0.0,_Otu0010_3722_Nummulites_venosus_1:0.0):0.0,_Otu0010_3739_Nummulites_venosus_2:0.0):3.0E-6,_Otu0010_3483_Nummulites_venosus_1:3.0E-6)80:2.0E-6)34:3.0E-6,(((((((((((((_Otu0007_3482_Nummulites_venosus_1:0.0,_Otu0008_3482_Nummulites_venosus_2:0.0):0.0,_Otu0008_3484_Nummulites_venosus:0.0):0.0,_Otu0007_3722_Nummulites_venosus_1:0.0):0.0,_Otu0007_3739_Nummulites_venosus_1:0.0):0.0,_Otu0008_3722_Nummulites_venosus_1:0.0):0.0,_Otu0008_3722_Nummulites_venosus_2:0.0):0.0,_Otu0007_3739_Nummulites_venosus_2:0.0):0.0,_Otu0007_3722_Nummulites_venosus_2:0.0):0.0,_Otu0007_3484_Nummulites_venosus:0.0):0.0,_Otu0008_3482_Nummulites_venosus_1:0.0):3.0E-6,_Otu0007_3482_Nummulites_venosus_2:3.0E-6)69:2.0E-6,(((((((_Otu0098_3482_Nummulites_venosus:0.0,_Otu0080_3722_Nummulites_venosus_2:0.0):0.0,_Otu0098_3722_Nummulites_venosus_1:0.0):0.0,_Otu0080_3739_Nummulites_venosus:0.0):0.0,_Otu0098_3722_Nummulites_venosus_2:0.0):0.0,_Otu0080_3722_Nummulites_venosus_1:0.0):3.0E-6,_Otu0098_3484_Nummulites_venosus:2.0E-6)89:2.0E-6,((_Otu0118_3483_Nummulites_venosus_1:0.0,_Otu0118_3739_Nummulites_venosus:0.0):3.0E-6,_Otu0118_3483_Nummulites_venosus_2:3.0E-6)97:0.003291)55:0.003315)37:3.0E-6,_Otu0795_3482_Nummulites_venosus:0.009996)48:0.003307)73:0.006674,_Otu1181_3722_Nummulites_venosus:2.0E-6)90:0.002008,((((((((_Otu0033_2894_Calcarina_sp2:0.0,_Otu0033_2895_Calcarina_sp2_2:0.0):3.0E-6,_Otu0033_2895_Calcarina_sp2_1:3.0E-6)72:3.0E-6,_Otu0331_2894_Calcarina_sp2:0.003377)9:3.0E-6,(((((_Otu0106_2894_Calcarina_sp2:0.0,_Otu0106_2895_Calcarina_sp2_2:0.0):3.0E-6,_Otu0106_2895_Calcarina_sp2_1:3.0E-6)80:3.0E-6,_Otu0913_2894_Calcarina_sp2:0.0039)17:0.003359,_Otu0466_2894_Calcarina_sp2:2.0E-6)57:0.003341,((_Otu0210_2894_Calcarina_sp2:0.0,_Otu0210_2895_Calcarina_sp2_2:0.0):3.0E-6,_Otu0210_2895_Calcarina_sp2_1:3.0E-6)97:2.0E-6)26:0.003348)69:2.0E-6,((_Otu0915_2894_Calcarina_sp2:0.0,_Otu0915_2895_Calcarina_sp2_2:0.0):2.0E-6,_Otu0915_2895_Calcarina_sp2_1:3.0E-6)100:0.011834)46:0.003173,(((_Otu0219_2894_Calcarina_sp2:2.0E-6,_Otu0470_2894_Calcarina_sp2:0.003379)82:2.0E-6,((_Otu0372_2894_Calcarina_sp2:0.0,_Otu0372_2895_Calcarina_sp2_2:0.0):3.0E-6,_Otu0372_2895_Calcarina_sp2_1:3.0E-6)94:0.003356)83:3.0E-6,((_Otu0575_2895_Calcarina_sp2_1:3.0E-6,_Otu0575_2895_Calcarina_sp2_2:3.0E-6)95:2.0E-6,((_Otu1190_2894_Calcarina_sp2:0.0,_Otu1190_2895_Calcarina_sp2_2:0.0):3.0E-6,_Otu1190_2895_Calcarina_sp2_1:3.0E-6)72:3.0E-6)93:0.003883)30:0.003542)92:0.024037,((_Otu0021_2926_Marginopora_vertebralis:3.0E-6,_Otu0163_2926_Marginopora_vertebralis:0.00532)100:0.034148,_Otu0283_2926_Marginopora_vertebralis:0.042497)100:0.034124)100:0.051667,(((((((((((((((_Otu0017_3505_Neorotalia_gaimardi_1:0.0,_Otu0197_3510_Neorotalia_gaimardi:0.0):0.0,_Otu0017_3510_Neorotalia_gaimardi:0.0):3.0E-6,_Otu0017_3505_Neorotalia_gaimardi_2:3.0E-6)81:2.0E-6,((_Otu0094_3505_Neorotalia_gaimardi_1:0.0,_Otu0094_3510_Neorotalia_gaimardi:0.0):3.0E-6,_Otu0094_3505_Neorotalia_gaimardi_2:2.0E-6)100:0.005766)83:0.005701,_Otu0172_3505_Neorotalia_gaimardi:0.017561)65:2.0E-6,(_Otu0041_3505_Neorotalia_gaimardi_1:0.0,_Otu0041_3510_Neorotalia_gaimardi:0.0):3.0E-6)31:2.0E-6,_Otu0041_3505_Neorotalia_gaimardi_2:3.0E-6)85:0.005758,_Otu0216_3510_Neorotalia_gaimardi:2.0E-6)60:3.0E-6,_Otu0250_3510_Neorotalia_gaimardi:0.005736)79:0.005747,_Otu0046_3505_Neorotalia_gaimardi_2:3.0E-6)6:3.0E-6,(_Otu0046_3505_Neorotalia_gaimardi_1:0.0,_Otu0046_3510_Neorotalia_gaimardi:0.0):3.0E-6)12:3.0E-6,_Otu0217_3505_Neorotalia_gaimardi:0.017285)24:2.0E-6,(((((((((_Otu0036_3505_Neorotalia_gaimardi_1:0.0,_Otu0036_3510_Neorotalia_gaimardi:0.0):3.0E-6,_Otu0036_3505_Neorotalia_gaimardi_2:3.0E-6)84:2.0E-6,(_Otu0204_3510_Neorotalia_gaimardi:0.005836,((_Otu0064_3505_Neorotalia_gaimardi_1:3.0E-6,_Otu0064_3505_Neorotalia_gaimardi_2:3.0E-6)93:0.005693,_Otu0120_3505_Neorotalia_gaimardi:3.0E-6)84:0.005721)9:2.0E-6)13:3.0E-6,(_Otu0122_3505_Neorotalia_gaimardi_1:3.0E-6,_Otu0122_3505_Neorotalia_gaimardi_2:2.0E-6)99:0.011783)69:0.005713,_Otu0110_3505_Neorotalia_gaimardi:2.0E-6)90:0.005705,_Otu0266_3510_Neorotalia_gaimardi:2.0E-6)97:0.017339,_Otu0202_3505_Neorotalia_gaimardi:3.0E-6)83:0.011638,(_Otu0130_3505_Neorotalia_gaimardi_1:3.0E-6,_Otu0130_3505_Neorotalia_gaimardi_2:3.0E-6)94:2.0E-6)98:0.013407,_Otu0116_3505_Neorotalia_gaimardi:0.173366)90:0.016369)81:0.011493,_Otu0286_3510_Neorotalia_gaimardi:2.0E-6)81:0.005664,(_Otu0151_3505_Neorotalia_gaimardi_1:3.0E-6,_Otu0151_3505_Neorotalia_gaimardi_2:3.0E-6)85:2.0E-6)100:0.188928)88:0.100807)47:0.015246,((((_Otu0027_2904_Operculina_ammonoides:0.0,_Otu0027_3713_Operculina_ammonoides:0.0):3.0E-6,_Otu0027_2901_Operculina_ammonoides:3.0E-6)86:2.0E-6,((((_Otu0180_3713_Operculina_ammonoides:0.0,_Otu0054_2901_Operculina_ammonoides:0.0):3.0E-6,_Otu0054_2904_Operculina_ammonoides:3.0E-6)68:3.0E-6,((_Otu0690_3713_Operculina_ammonoides:0.006654,_Otu0048_2901_Operculina_ammonoides:3.0E-6)50:3.0E-6,(_Otu0048_2904_Operculina_ammonoides:0.0,_Otu0048_3713_Operculina_ammonoides:0.0):3.0E-6)99:2.0E-6)96:0.003306,_Otu0189_2901_Operculina_ammonoides:0.003314)40:2.0E-6)62:2.0E-6,((((_Otu0099_3719_Operculina_LKI27type_1:0.0,_Otu0123_3719_Operculina_LKI27type_2:0.0):0.0,_Otu0123_3719_Operculina_LKI27type_1:0.0):3.0E-6,_Otu0099_3719_Operculina_LKI27type_2:3.0E-6)88:2.0E-6,(_Otu0134_3719_Operculina_LKI27type_1:3.0E-6,_Otu0134_3719_Operculina_LKI27type_2:3.0E-6)96:0.003359)84:0.003365)82:0.006709)4:2.0E-6,(((((((((((((((((((((((((((((_Otu0009_2903_Operculina_ammonoides:0.0,_Otu0013_2904_Operculina_ammonoides:0.0):0.0,_Otu0016_3719_Operculina_LKI27type_1:0.0):0.0,_Otu0013_2901_Operculina_ammonoides:0.0):0.0,_Otu0035_2903_Operculina_ammonoides:0.0):0.0,_Otu0013_2906_Operculina_ammonoides:0.0):0.0,_Otu0009_3713_Operculina_ammonoides:0.0):0.0,_Otu0016_2903_Operculina_ammonoides:0.0):0.0,_Otu0016_3719_Operculina_LKI27type_2:0.0):0.0,_Otu0009_2906_Operculina_ammonoides:0.0):0.0,_Otu0016_2906_Operculina_ammonoides:0.0):0.0,_Otu0009_2901_Operculina_ammonoides:0.0):0.0,_Otu0013_3719_Operculina_LKI27type_2:0.0):0.0,_Otu0035_2906_Operculina_ammonoides:0.0):0.0,_Otu0013_3727_Operculina_ammonoides_1:0.0):0.0,_Otu0013_2905_Operculina_ammonoides:0.0):0.0,_Otu0009_2907_Operculina_ammonoides:0.0):0.0,_Otu0009_3719_Operculina_LKI27type_1:0.0):0.0,_Otu0016_3713_Operculina_ammonoides:0.0):0.0,_Otu0013_3719_Operculina_LKI27type_1:0.0):0.0,_Otu0013_3727_Operculina_ammonoides_2:0.0):0.0,_Otu0009_2905_Operculina_ammonoides:0.0):0.0,_Otu0009_3727_Operculina_ammonoides_2:0.0):0.0,_Otu0013_2903_Operculina_ammonoides:0.0):0.0,_Otu0016_2905_Operculina_ammonoides:0.0):0.0,_Otu0009_3719_Operculina_LKI27type_2:0.0):0.0,_Otu0035_2905_Operculina_ammonoides:0.0):0.0,_Otu0009_3727_Operculina_ammonoides_1:0.0):0.0,_Otu0013_2907_Operculina_ammonoides:0.0):3.0E-6,_Otu0009_2904_Operculina_ammonoides:3.0E-6)74:2.0E-6)2:2.0E-6,((((((((((((((_Otu0075_2903_Operculina_ammonoides:0.0,_Otu0057_3713_Operculina_ammonoides:0.0):0.0,_Otu0097_2905_Operculina_ammonoides:0.0):0.0,_Otu0057_2904_Operculina_ammonoides:0.0):0.0,_Otu0246_2905_Operculina_ammonoides:0.0):0.0,_Otu0097_2906_Operculina_ammonoides:0.0):0.0,_Otu0057_3727_Operculina_ammonoides:0.0):0.0,_Otu0097_3713_Operculina_ammonoides:0.0):0.0,_Otu0097_2903_Operculina_ammonoides:0.0):0.0,_Otu0057_3719_Operculina_LKI27type_2:0.0):0.0,_Otu0057_2901_Operculina_ammonoides:0.0):0.0,_Otu0075_2907_Operculina_ammonoides:0.0):0.0,_Otu0057_3719_Operculina_LKI27type_1:0.0):2.0E-6,_Otu0075_2904_Operculina_ammonoides:3.0E-6)86:3.0E-6,((((_Otu0105_2906_Operculina_ammonoides:0.0,_Otu0140_2907_Operculina_ammonoides:0.0):0.0,_Otu0085_3719_Operculina_LKI27type:0.0):0.0,_Otu0121_3727_Operculina_ammonoides:0.0):3.0E-6,_Otu0105_3727_Operculina_ammonoides:3.0E-6)98:0.00329)79:0.003314)26:0.003292,((((((((((((((((((((((((((((((_Otu0011_2903_Operculina_ammonoides:0.0,_Otu0011_3727_Operculina_ammonoides_2:0.0):0.0,_Otu0011_3727_Operculina_ammonoides_1:0.0):0.0,_Otu0014_3727_Operculina_ammonoides_2:0.0):0.0,_Otu0011_2906_Operculina_ammonoides:0.0):0.0,_Otu0012_3727_Operculina_ammonoides_2:0.0):0.0,_Otu0012_2905_Operculina_ammonoides:0.0):0.0,_Otu0012_3727_Operculina_ammonoides_1:0.0):0.0,_Otu0014_2906_Operculina_ammonoides:0.0):0.0,_Otu0012_2907_Operculina_ammonoides:0.0):0.0,_Otu0020_2906_Operculina_ammonoides:0.0):0.0,_Otu0020_2905_Operculina_ammonoides:0.0):0.0,_Otu0011_2901_Operculina_ammonoides:0.0):0.0,_Otu0020_2907_Operculina_ammonoides:0.0):0.0,_Otu0012_3719_Operculina_LKI27type_1:0.0):0.0,_Otu0014_2905_Operculina_ammonoides:0.0):0.0,_Otu0011_3719_Operculina_LKI27type_2:0.0):0.0,_Otu0014_3719_Operculina_LKI27type_2:0.0):0.0,_Otu0012_2904_Operculina_ammonoides:0.0):0.0,_Otu0011_3719_Operculina_LKI27type_1:0.0):0.0,_Otu0011_2905_Operculina_ammonoides:0.0):0.0,_Otu0020_3727_Operculina_ammonoides_1:0.0):0.0,_Otu0014_3719_Operculina_LKI27type_1:0.0):0.0,_Otu0014_3727_Operculina_ammonoides_1:0.0):0.0,_Otu0014_3713_Operculina_ammonoides:0.0):0.0,_Otu0012_3719_Operculina_LKI27type_2:0.0):0.0,_Otu0012_3725_Operculina_ammonoides:0.0):0.0,_Otu0012_2903_Operculina_ammonoides:0.0):0.0,_Otu0014_2907_Operculina_ammonoides:0.0):0.0,_Otu0020_3727_Operculina_ammonoides_2:0.0):3.0E-6,_Otu0011_2904_Operculina_ammonoides:3.0E-6)86:3.0E-6)45:0.010889,(((((((_Otu0034_3713_Operculina_ammonoides:0.0,_Otu0138_3719_Operculina_LKI27type_2:0.0):0.0,_Otu0138_3719_Operculina_LKI27type_1:0.0):0.0,_Otu0138_3713_Operculina_ammonoides:0.0):0.0,_Otu0034_3719_Operculina_LKI27type_2:0.0):2.0E-6,_Otu0034_3719_Operculina_LKI27type_1:3.0E-6)73:3.0E-6,(((_Otu0015_3740_Operculinella_cummingi_1:2.0E-6,_Otu0015_3740_Operculinella_cummingi_2:2.0E-6)87:2.0E-6,(_Otu0019_3740_Operculinella_cummingi_1:3.0E-6,_Otu0019_3740_Operculinella_cummingi_2:3.0E-6)93:0.003396)23:0.003378,((_Otu0024_3740_Operculinella_cummingi_1:2.0E-6,_Otu0024_3740_Operculinella_cummingi_2:2.0E-6)86:3.0E-6,(((_Otu0107_3740_Operculinella_cummingi_1:3.0E-6,_Otu0107_3740_Operculinella_cummingi_2:3.0E-6)84:2.0E-6,(_Otu0157_3740_Operculinella_cummingi_1:3.0E-6,_Otu0157_3740_Operculinella_cummingi_2:3.0E-6)98:0.003378)63:0.003362,(_Otu0152_3740_Operculinella_cummingi_1:2.0E-6,_Otu0152_3740_Operculinella_cummingi_2:3.0E-6)92:3.0E-6)31:0.003386)23:2.0E-6)95:0.006796)58:3.0E-6,_Otu0285_2925_Marginopora_vertebralis:0.509083)29:0.003361)13:2.0E-6,_Otu0069_3719_Operculina_LKI27type_1:3.0E-6)7:2.0E-6,_Otu0069_3719_Operculina_LKI27type_2:3.0E-6)14:2.0E-6,_Otu0724_3722_Nummulites_venosus:0.0068)50:0.047946)27:2.0E-6,(((_Otu0113_3712_Nummulites_venosus:3.0E-6,_Otu0451_3712_Nummulites_venosus:0.003632)100:0.027465,_Otu0232_3723_Parasorites_sp:0.020331)94:0.007467,((((((((((_Otu0028_2943_Amphistegina_radiata_1:0.0,_Otu0028_2947_Amphistegina_radiata:0.0):0.0,_Otu0028_2946_Amphistegina_radiata_1:0.0):0.0,_Otu0175_2944_Amphistegina_radiata:0.0):0.0,_Otu0090_2946_Amphistegina_radiata:0.0):0.0,_Otu0028_2946_Amphistegina_radiata_2:0.0):0.0,_Otu0028_2944_Amphistegina_radiata:0.0):0.0,_Otu0028_2945_Amphistegina_radiata:0.0):2.0E-6,_Otu0028_2943_Amphistegina_radiata_2:2.0E-6)92:3.0E-6,(((_Otu0059_2943_Amphistegina_radiata:0.0,_Otu0059_2945_Amphistegina_radiata:0.0):2.0E-6,(_Otu0059_2944_Amphistegina_radiata:2.0E-6,(((_Otu0389_2944_Amphistegina_radiata:0.0,_Otu0389_2947_Amphistegina_radiata:0.0):3.0E-6,_Otu0389_2945_Amphistegina_radiata:2.0E-6)96:0.005552,(((((((((((_Otu0091_2943_Amphistegina_radiata:0.0,_Otu0139_2943_Amphistegina_radiata:0.0):2.0E-6,_Otu0091_2944_Amphistegina_radiata:2.0E-6)92:2.0E-6,(((_Otu0195_2945_Amphistegina_radiata:0.0,_Otu0198_2945_Amphistegina_radiata:0.0):3.0E-6,_Otu0112_2943_Amphistegina_radiata:3.0E-6)86:2.0E-6,(_Otu0281_2925_Marginopora_vertebralis:0.004685,_Otu0114_2946_Amphistegina_radiata:0.014283)50:2.0E-6)63:0.004684)98:0.026891,(((_Otu0066_2943_Amphistegina_radiata:3.0E-6,_Otu0066_2944_Amphistegina_radiata:3.0E-6)89:3.0E-6,_Otu0083_2943_Amphistegina_radiata:3.0E-6)100:0.003382,_Otu0084_2943_Amphistegina_radiata:0.049863)91:0.021691)69:0.008041,((((((((_Otu0038_2943_Amphistegina_radiata_1:0.0,_Otu0037_2946_Amphistegina_radiata_1:0.0):0.0,_Otu0038_2945_Amphistegina_radiata:0.0):0.0,_Otu0037_2944_Amphistegina_radiata:0.0):0.0,_Otu0037_2946_Amphistegina_radiata_2:0.0):0.0,_Otu0037_2947_Amphistegina_radiata:0.0):0.0,_Otu0038_2946_Amphistegina_radiata:0.0):2.0E-6,_Otu0038_2943_Amphistegina_radiata_2:2.0E-6)90:0.004916,(((_Otu0044_2944_Amphistegina_radiata:0.0,_Otu0044_2946_Amphistegina_radiata_2:0.0):0.0,_Otu0044_2946_Amphistegina_radiata_1:0.0):3.0E-6,_Otu0044_2945_Amphistegina_radiata:3.0E-6)97:2.0E-6)94:0.010031)14:2.0E-6,((_Otu0074_2945_Amphistegina_radiata:0.0,_Otu0273_2945_Amphistegina_radiata:0.0):2.0E-6,_Otu0074_2947_Amphistegina_radiata:3.0E-6)91:2.0E-6)19:0.0045,((_Otu0045_2945_Amphistegina_radiata:0.0,_Otu0045_2946_Amphistegina_radiata_2:0.0):3.0E-6,_Otu0045_2946_Amphistegina_radiata_1:2.0E-6)86:2.0E-6)99:0.043063,(_Otu0243_2945_Amphistegina_radiata:0.014564,_Otu0092_2947_Amphistegina_radiata:2.0E-6)98:0.004572)86:0.011137,(((((((((((_Otu0030_2943_Amphistegina_radiata_1:0.0,_Otu0030_2944_Amphistegina_radiata:0.0):0.0,_Otu0030_2946_Amphistegina_radiata:0.0):3.0E-6,_Otu0030_2943_Amphistegina_radiata_2:3.0E-6)92:2.0E-6,_Otu0053_2943_Amphistegina_radiata:0.005791)90:0.005816,(((((_Otu0032_2943_Amphistegina_radiata:0.0,_Otu0032_2946_Amphistegina_radiata_1:0.0):0.0,_Otu0032_2945_Amphistegina_radiata:0.0):0.0,_Otu0032_2946_Amphistegina_radiata_2:0.0):0.0,_Otu0032_2947_Amphistegina_radiata:0.0):3.0E-6,_Otu0032_2944_Amphistegina_radiata:3.0E-6)90:3.0E-6)90:0.017919,((_Otu0323_2943_Amphistegina_radiata:0.0,_Otu0323_2946_Amphistegina_radiata:0.0):3.0E-6,_Otu0323_2945_Amphistegina_radiata:3.0E-6)100:0.004899)72:2.0E-6,(_Otu0047_2943_Amphistegina_radiata_1:2.0E-6,_Otu0047_2943_Amphistegina_radiata_2:3.0E-6)100:0.004861)71:0.004872,((((_Otu0052_2943_Amphistegina_radiata_1:0.0,_Otu0052_2946_Amphistegina_radiata_1:0.0):0.0,_Otu0052_2945_Amphistegina_radiata:0.0):0.0,_Otu0052_2946_Amphistegina_radiata_2:0.0):3.0E-6,_Otu0052_2943_Amphistegina_radiata_2:2.0E-6)93:3.0E-6)71:0.009934,_Otu0095_2946_Amphistegina_radiata:0.009458)50:2.0E-6,(((_Otu0051_2945_Amphistegina_radiata:0.0,_Otu0051_2946_Amphistegina_radiata_2:0.0):0.0,_Otu0051_2947_Amphistegina_radiata:0.0):3.0E-6,_Otu0051_2946_Amphistegina_radiata_1:3.0E-6)90:3.0E-6)78:0.004715,(_Otu0071_2943_Amphistegina_radiata:3.0E-6,_Otu0071_2947_Amphistegina_radiata:3.0E-6)81:2.0E-6)74:2.0E-6)84:0.0078,((((_Otu0049_2943_Amphistegina_radiata:3.0E-6,_Otu0049_2947_Amphistegina_radiata:2.0E-6)86:2.0E-6,_Otu0068_2946_Amphistegina_radiata:2.0E-6)96:0.005895,(_Otu0067_2943_Amphistegina_radiata:2.0E-6,(((_Otu0411_2945_Amphistegina_radiata:0.0,_Otu0411_2946_Amphistegina_radiata_2:0.0):3.0E-6,_Otu0411_2946_Amphistegina_radiata_1:3.0E-6)100:0.00596,(_Otu0056_2943_Amphistegina_radiata:0.015044,((((((_Otu0026_2944_Amphistegina_radiata:0.0,_Otu0026_2946_Amphistegina_radiata_2:0.0):0.0,_Otu0026_2947_Amphistegina_radiata:0.0):2.0E-6,_Otu0026_2946_Amphistegina_radiata_1:2.0E-6)89:3.0E-6,(_Otu0127_2944_Amphistegina_radiata:0.007477,(_Otu0050_2946_Amphistegina_radiata:0.007498,(_Otu0135_2947_Amphistegina_radiata:3.0E-6,_Otu0168_2947_Amphistegina_radiata:0.014924)40:2.0E-6)98:0.023069)81:2.0E-6)50:3.0E-6,_Otu0199_2945_Amphistegina_radiata:0.014969)97:0.007342,(_Otu0040_2946_Amphistegina_radiata:3.0E-6,_Otu0040_2947_Amphistegina_radiata:3.0E-6)89:2.0E-6)78:3.0E-6)96:0.022718)70:2.0E-6)69:2.0E-6)93:0.004837,_Otu0104_2943_Amphistegina_radiata:0.020033)99:0.019334)88:0.026009,((((_Otu0088_2943_Amphistegina_radiata_1:2.0E-6,_Otu0088_2943_Amphistegina_radiata_2:3.0E-6)100:0.004632,((_Otu0101_2943_Amphistegina_radiata_1:0.0,_Otu0101_2944_Amphistegina_radiata:0.0):2.0E-6,_Otu0101_2943_Amphistegina_radiata_2:2.0E-6)87:2.0E-6)100:0.004642,_Otu0651_2945_Amphistegina_radiata:0.004669)33:3.0E-6,(_Otu0336_2945_Amphistegina_radiata:3.0E-6,_Otu0336_2946_Amphistegina_radiata:3.0E-6)89:3.0E-6)37:2.0E-6)85:0.017066)68:2.0E-6)22:2.0E-6)37:2.0E-6,((_Otu0102_2943_Amphistegina_radiata:3.0E-6,_Otu0082_2946_Amphistegina_radiata:3.0E-6)81:3.0E-6,_Otu0215_2944_Amphistegina_radiata:0.005494)39:0.011159)13:0.005544)100:0.481276,_Otu0680_3709_Nummulites_venosus:0.268011)96:0.275172)47:0.010676)46:0.018688,(_Otu0196_3723_Parasorites_sp:0.096066,((_Otu0546_3758_Amphisorus_SpL:0.107392,(((((_Otu0272_3707_Amphisorus_SpL:0.017084,(_Otu0224_3709_Nummulites_venosus:3.0E-6,_Otu0593_3709_Nummulites_venosus:0.003672)99:0.013534)99:0.042583,_Otu0214_3705_Amphisorus_SpL:0.102751)80:0.007541,((_Otu0058_3704_Amphisorus_SpL:3.0E-6,_Otu0058_3706_Amphisorus_SpL:3.0E-6)100:0.051805,_Otu0559_3712_Nummulites_venosus:0.111819)88:0.097822)10:0.01773,(_Otu0538_3712_Nummulites_venosus:3.0E-6,_Otu0538_3709_Nummulites_venosus:2.0E-6)85:2.0E-6)3:0.00363,((_Otu0330_3746_Calcarina_sp1:2.0E-6,_Otu0867_3746_Calcarina_sp1:0.008213)65:2.0E-6,((_Otu0201_3748_Calcarina_sp1:3.0E-6,_Otu0566_3748_Calcarina_sp1:0.005775)19:2.0E-6,(_Otu0363_3748_Calcarina_sp1:0.103652,(((((((((((((((((((((((((((((_Otu0001_3702_Amphisorus_SpL:0.0,_Otu0001_3699_Amphisorus_SpL_2:0.0):0.0,_Otu0001_2920_Amphisorus_SpS:0.0):0.0,_Otu0001_3704_Amphisorus_SpL_2:0.0):0.0,_Otu0001_3705_Amphisorus_SpL_2:0.0):0.0,_Otu0001_2922_Amphisorus_SpS:0.0):0.0,_Otu0001_3699_Amphisorus_SpL_1:0.0):0.0,_Otu0001_3708_Amphisorus_SpL_2:0.0):0.0,_Otu0001_3708_Amphisorus_SpL_1:0.0):0.0,_Otu0001_3759_Amphisorus_SpL_2:0.0):0.0,_Otu0001_3754_Amphisorus_SpL_1:0.0):0.0,_Otu0001_3754_Amphisorus_SpL_2:0.0):0.0,_Otu0001_3755_Amphisorus_SpL_1:0.0):0.0,_Otu0001_3701_Amphisorus_SpL:0.0):0.0,_Otu0001_3755_Amphisorus_SpL_2:0.0):0.0,_Otu0001_3705_Amphisorus_SpL_1:0.0):0.0,_Otu0001_3706_Amphisorus_SpL_2:0.0):0.0,_Otu0001_3704_Amphisorus_SpL_1:0.0):0.0,_Otu0001_3756_Amphisorus_SpL:0.0):0.0,_Otu0001_3757_Amphisorus_SpL_1:0.0):0.0,_Otu0001_3703_Amphisorus_SpL:0.0):0.0,_Otu0001_3707_Amphisorus_SpL:0.0):0.0,_Otu0001_3706_Amphisorus_SpL_1:0.0):0.0,_Otu0001_3759_Amphisorus_SpL_1:0.0):0.0,_Otu0001_3757_Amphisorus_SpL_2:0.0):3.0E-6,_Otu0001_3758_Amphisorus_SpL:2.0E-6)100:0.035013,((((_Otu0002_2931_Amphisorus_SpS:0.0,_Otu0002_2924_Amphisorus_SpS_2:0.0):0.0,_Otu0002_2933_Amphisorus_SpS:0.0):0.0,_Otu0002_2932_Amphisorus_SpS:0.0):3.0E-6,_Otu0002_2924_Amphisorus_SpS_1:3.0E-6)96:2.0E-6)100:0.089152,((((((_Otu0006_2926_Marginopora_vertebralis:0.0,_Otu0006_2928_Marginopora_vertebralis:0.0):0.0,_Otu0006_2925_Marginopora_vertebralis:0.0):0.0,_Otu0006_2923_Marginopora_vertebralis:0.0):3.0E-6,_Otu0006_2927_Marginopora_vertebralis:3.0E-6)96:3.0E-6,((((_Otu0018_2926_Marginopora_vertebralis:0.0,_Otu0018_2925_Marginopora_vertebralis:0.0):0.0,_Otu0018_2928_Marginopora_vertebralis:0.0):0.0,_Otu0018_2923_Marginopora_vertebralis:0.0):2.0E-6,_Otu0018_2927_Marginopora_vertebralis:3.0E-6)100:0.003522)98:0.00902,(_Otu0004_3476_Sorites_sp_1:3.0E-6,_Otu0004_3476_Sorites_sp_2:3.0E-6)100:0.029769)97:0.009511)96:0.015129,((((((_Otu0997_3488_Parasorites_sp:0.0,_Otu0997_3490_Parasorites_sp:0.0):0.0,_Otu0997_3485_Parasorites_sp:0.0):0.0,_Otu0997_3723_Parasorites_sp_2:0.0):0.0,_Otu0997_3492_Parasorites_sp:0.0):0.0,_Otu0997_3723_Parasorites_sp_1:0.0):3.0E-6,_Otu0997_3489_Parasorites_sp:3.0E-6)99:0.002573)58:9.66E-4,(_Otu0025_3485_Parasorites_sp:0.003713,_Otu0089_3485_Parasorites_sp:0.007432)94:0.011546)100:0.81151)3:0.022702)6:0.02834)19:0.11305)14:0.03368)34:0.134045,(_Otu1058_2925_Marginopora_vertebralis:0.023276,(((((_Otu0340_3731_Alveolinella_quoyi:0.007224,_Otu0295_3711_Nummulites_venosus:0.003587)8:3.0E-6,(_Otu0023_3711_Nummulites_venosus_1:3.0E-6,_Otu0023_3711_Nummulites_venosus_2:3.0E-6)70:3.0E-6)9:2.0E-6,((_Otu0133_3711_Nummulites_venosus_1:2.0E-6,_Otu0133_3711_Nummulites_venosus_2:2.0E-6)98:3.0E-6,(_Otu0223_3702_Amphisorus_SpL:0.00549,_Otu0624_3702_Amphisorus_SpL:3.0E-6)100:0.67132)20:0.003601)7:2.0E-6,(((_Otu0181_3709_Nummulites_venosus:3.0E-6,_Otu0736_3709_Nummulites_venosus:0.003607)89:2.0E-6,_Otu0564_3709_Nummulites_venosus:0.00363)100:0.012018,_Otu0369_3731_Alveolinella_quoyi:0.087346)77:0.006473)25:0.003595,(_Otu0276_3711_Nummulites_venosus_1:3.0E-6,_Otu0276_3711_Nummulites_venosus_2:2.0E-6)94:2.0E-6)98:0.443133)36:0.105314)62:0.0484)56:0.002285)69:0.013942)76:0.013401,(_Otu0165_3759_Amphisorus_SpL:2.0E-6,_Otu0891_2927_Marginopora_vertebralis:0.009163)100:0.171477)78:0.036418,((_Otu0346_3711_Nummulites_venosus:0.446685,(_Otu0256_3720_Operculina_complanata:0.060716,_Otu0079_3723_Parasorites_sp:0.192562)100:0.191288)100:0.125356,((((_Otu0160_3731_Alveolinella_quoyi:3.0E-6,_Otu0503_3731_Alveolinella_quoyi:0.003815)100:0.051561,_Otu0375_3725_Operculina_ammonoides:0.118992)70:0.056942,_Otu0306_3712_Nummulites_venosus:0.040353)70:0.065823,_Otu0804_3709_Nummulites_venosus:0.056967)100:0.360093)89:0.127771)93:0.034537,_Otu0835_3731_Alveolinella_quoyi:0.689559)24:0.095553)79:0.078662,((_Otu1140_3731_Alveolinella_quoyi:0.199003,((_Otu0061_3711_Nummulites_venosus_1:3.0E-6,_Otu0061_3711_Nummulites_venosus_2:3.0E-6)87:3.0E-6,_Otu0319_3711_Nummulites_venosus:0.003699)100:0.02593)90:0.05279,_Otu0397_3723_Parasorites_sp:0.153139)99:0.074439)100:0.280618);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Adobe Devanagari";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="bootstrap";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="Adobe Devanagari";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Adobe Devanagari";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=2;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

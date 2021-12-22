@@ -1,0 +1,354 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=252;
+	taxlabels
+	_Otu001_2920_Amphisorus_SpS
+	_Otu001_2922_Amphisorus_SpS
+	_Otu001_2924_Amphisorus_SpS
+	_Otu001_2931_Amphisorus_SpS_1
+	_Otu001_2931_Amphisorus_SpS_2
+	_Otu001_2932_Amphisorus_SpS
+	_Otu001_2933_Amphisorus_SpS
+	_Otu001_3699_Amphisorus_SpL
+	_Otu001_3700_Amphisorus_SpL
+	_Otu001_3701_Amphisorus_SpL
+	_Otu001_3702_Amphisorus_SpL
+	_Otu001_3703_Amphisorus_SpL
+	_Otu001_3704_Amphisorus_SpL
+	_Otu001_3705_Amphisorus_SpL
+	_Otu001_3706_Amphisorus_SpL
+	_Otu001_3707_Amphisorus_SpL
+	_Otu001_3708_Amphisorus_SpL
+	_Otu001_3709_Nummulites_venosus
+	_Otu001_3710_Nummulites_venosus
+	_Otu001_3759_Amphisorus_SpL
+	_Otu001_3760_Amphisorus_SpS
+	_Otu001_3761_Amphisorus_SpS
+	_Otu001_3762_Amphisorus_SpS
+	_Otu002_3471_Sorites_sp_1
+	_Otu002_3471_Sorites_sp_2
+	_Otu002_3472_Sorites_sp_1
+	_Otu002_3472_Sorites_sp_2
+	_Otu002_3473_Sorites_sp_1
+	_Otu002_3473_Sorites_sp_2
+	_Otu002_3474_Sorites_sp_1
+	_Otu002_3474_Sorites_sp_2
+	_Otu002_3475_Sorites_sp
+	_Otu002_3478_Sorites_sp_1
+	_Otu002_3478_Sorites_sp_2
+	_Otu002_3750_Sorites_sp
+	_Otu002_3751_Sorites_sp
+	_Otu002_3752_Sorites_sp
+	_Otu002_3753_Sorites_sp
+	_Otu003_2909_Alveolinella_quoyi
+	_Otu003_2911_Alveolinella_quoyi
+	_Otu003_2912_Alveolinella_quoyi
+	_Otu003_2913_Alveolinella_quoyi
+	_Otu003_2914_Alveolinella_quoyi
+	_Otu003_2915_Alveolinella_quoyi
+	_Otu003_2916_Alveolinella_quoyi
+	_Otu003_2919_Alveolinella_quoyi
+	_Otu003_3511_Alveolinella_quoyi
+	_Otu003_3514_Alveolinella_quoyi
+	_Otu003_3515_Alveolinella_quoyi
+	_Otu003_3516_Alveolinella_quoyi
+	_Otu003_3517_Alveolinella_quoyi
+	_Otu003_3518_Alveolinella_quoyi
+	_Otu003_3519_Alveolinella_quoyi
+	_Otu003_3520_Alveolinella_quoyi
+	_Otu003_3717_Operculina_sp1
+	_Otu003_3730_Alveolinella_quoyi
+	_Otu004_3485_Parasorites_sp
+	_Otu004_3486_Parasorites_sp
+	_Otu004_3487_Parasorites_sp
+	_Otu004_3488_Parasorites_sp
+	_Otu004_3489_Parasorites_sp
+	_Otu004_3490_Parasorites_sp
+	_Otu004_3491_Parasorites_sp
+	_Otu004_3492_Parasorites_sp
+	_Otu004_3723_Parasorites_sp
+	_Otu004_3724_Parasorites_sp
+	_Otu005_2833_Operculina_ammonoides_1
+	_Otu005_2833_Operculina_ammonoides_2
+	_Otu005_2835_Operculina_ammonoides_1
+	_Otu005_2835_Operculina_ammonoides_2
+	_Otu005_2898_Operculina_ammonoides
+	_Otu005_2900_Operculina_ammonoides
+	_Otu005_2901_Operculina_ammonoides
+	_Otu005_2902_Operculina_ammonoides
+	_Otu005_2903_Operculina_ammonoides
+	_Otu005_2905_Operculina_ammonoides
+	_Otu005_2906_Operculina_ammonoides_1
+	_Otu005_2906_Operculina_ammonoides_2
+	_Otu005_2906_Operculina_ammonoides_3
+	_Otu005_2906_Operculina_ammonoides_4
+	_Otu005_2907_Operculina_ammonoides
+	_Otu005_2908_Operculina_ammonoides
+	_Otu005_3713_Operculina_ammonoides
+	_Otu005_3714_Operculina_ammonoides
+	_Otu005_3715_Operculina_ammonoides
+	_Otu005_3716_Operculina_ammonoides
+	_Otu005_3717_Operculina_sp1
+	_Otu005_3719_Operculina_LKI27type
+	_Otu005_3726_Operculina_ammonoides
+	_Otu005_3727_Operculina_ammonoides
+	_Otu005_3730_Alveolinella_quoyi
+	_Otu005_3731_Alveolinella_quoyi
+	_Otu006_2830_Calcarina_sp2_1
+	_Otu006_2830_Calcarina_sp2_2
+	_Otu006_2831_Calcarina_sp2_1
+	_Otu006_2831_Calcarina_sp2_2
+	_Otu006_2832_Calcarina_sp2_1
+	_Otu006_2832_Calcarina_sp2_2
+	_Otu006_2887_Calcarina_sp2_1
+	_Otu006_2887_Calcarina_sp2_2
+	_Otu006_2888_Calcarina_sp2_1
+	_Otu006_2888_Calcarina_sp2_2
+	_Otu006_2889_Calcarina_sp2
+	_Otu006_2890_Calcarina_sp2_1
+	_Otu006_2890_Calcarina_sp2_2
+	_Otu006_2891_Calcarina_sp2
+	_Otu006_2892_Calcarina_sp2
+	_Otu006_2893_Calcarina_sp2
+	_Otu006_2897_Calcarina_sp2
+	_Otu007_2921_Marginopora_vertebralis
+	_Otu007_2923_Marginopora_vertebralis
+	_Otu007_2925_Marginopora_vertebralis_1
+	_Otu007_2925_Marginopora_vertebralis_2
+	_Otu007_2926_Marginopora_vertebralis_1
+	_Otu007_2926_Marginopora_vertebralis_2
+	_Otu007_2927_Marginopora_vertebralis_1
+	_Otu007_2927_Marginopora_vertebralis_2
+	_Otu007_2928_Marginopora_vertebralis_1
+	_Otu007_2928_Marginopora_vertebralis_2
+	_Otu008_2934_Amphistegina_radiata
+	_Otu008_2936_Amphistegina_radiata
+	_Otu008_2939_Amphistegina_radiata
+	_Otu008_2940_Amphistegina_radiata
+	_Otu008_2941_Amphistegina_radiata
+	_Otu008_2942_Amphistegina_radiata
+	_Otu008_2946_Amphistegina_radiata
+	_Otu008_2947_Amphistegina_radiata_1
+	_Otu008_2947_Amphistegina_radiata_2
+	_Otu009_3911_Heterostegina_depressa
+	_Otu009_3913_Heterostegina_depressa
+	_Otu009_3914_Heterostegina_depressa
+	_Otu009_3915_Heterostegina_depressa_1
+	_Otu009_3915_Heterostegina_depressa_2
+	_Otu009_3917_Heterostegina_depressa_1
+	_Otu009_3917_Heterostegina_depressa_2
+	_Otu009_3918_Heterostegina_depressa
+	_Otu009_3920_Heterostegina_depressa
+	_Otu010_3481_Nummulites_venosus
+	_Otu010_3482_Nummulites_venosus
+	_Otu010_3483_Nummulites_venosus
+	_Otu010_3484_Nummulites_venosus
+	_Otu010_3710_Nummulites_venosus
+	_Otu010_3722_Nummulites_venosus
+	_Otu010_3739_Nummulites_venosus
+	_Otu011_3494_Peneroplis_planatus
+	_Otu011_3497_Peneroplis_planatus
+	_Otu011_3499_Peneroplis_planatus
+	_Otu012_3473_Sorites_sp
+	_Otu012_3476_Sorites_sp_1
+	_Otu012_3476_Sorites_sp_2
+	_Otu012_3749_Sorites_sp
+	_Otu013_3501_Neorotalia_gaimardi
+	_Otu013_3502_Neorotalia_gaimardi
+	_Otu013_3504_Neorotalia_gaimardi
+	_Otu013_3505_Neorotalia_gaimardi
+	_Otu013_3506_Neorotalia_gaimardi
+	_Otu013_3507_Neorotalia_gaimardi
+	_Otu013_3509_Neorotalia_gaimardi
+	_Otu013_3510_Neorotalia_gaimardi
+	_Otu014_3912_Heterostegina_depressa
+	_Otu014_3916_Heterostegina_depressa_1
+	_Otu014_3916_Heterostegina_depressa_2
+	_Otu014_3919_Heterostegina_depressa
+	_Otu015_3711_Nummulites_venosus
+	_Otu015_3721_Nummulites_venosus
+	_Otu015_3742_Amphistegina_lessonii
+	_Otu015_3743_Amphistegina_lessonii
+	_Otu016_3496_Peneroplis_planatus
+	_Otu016_3498_Peneroplis_planatus
+	_Otu016_3500_Peneroplis_planatus
+	_Otu017_3746_Calcarina_sp1
+	_Otu017_3748_Calcarina_sp1
+	_Otu018_3718_Operculina_complanata
+	_Otu018_3720_Operculina_complanata
+	_Otu019_3503_Neorotalia_calcar
+	_Otu019_3508_Neorotalia_calcar
+	_Otu020_3737_Borelis_schlumbergeri
+	_Otu021_3712_Nummulites_venosus
+	_Otu022_3711_Nummulites_venosus
+	_Otu023_3711_Nummulites_venosus
+	_Otu023_3721_Nummulites_venosus
+	_Otu024_3740_Operculinella_cummingi
+	_Otu025_3741_Amphistegina_papillosa
+	_Otu026_3709_Nummulites_venosus
+	_Otu027_3710_Nummulites_venosus
+	_Otu028_3709_Nummulites_venosus
+	_Otu028_3711_Nummulites_venosus
+	_Otu029_3514_Alveolinella_quoyi
+	_Otu030_3710_Nummulites_venosus
+	_Otu031_3712_Nummulites_venosus
+	_Otu032_3709_Nummulites_venosus
+	_Otu033_3519_Alveolinella_quoyi
+	_Otu035_3731_Alveolinella_quoyi
+	_Otu036_3710_Nummulites_venosus
+	_Otu037_3712_Nummulites_venosus
+	_Otu040_3709_Nummulites_venosus
+	_Otu042_2936_Amphistegina_radiata
+	_Otu043_3710_Nummulites_venosus
+	_Otu049_3710_Nummulites_venosus
+	_Otu052_2833_Operculina_ammonoides_1
+	_Otu052_2833_Operculina_ammonoides_2
+	_Otu052_2835_Operculina_ammonoides_1
+	_Otu052_2835_Operculina_ammonoides_2
+	_Otu052_2898_Operculina_ammonoides
+	_Otu052_2900_Operculina_ammonoides
+	_Otu052_2902_Operculina_ammonoides
+	_Otu052_2903_Operculina_ammonoides
+	_Otu052_2906_Operculina_ammonoides_1
+	_Otu052_2906_Operculina_ammonoides_2
+	_Otu052_2906_Operculina_ammonoides_3
+	_Otu052_2906_Operculina_ammonoides_4
+	_Otu052_2907_Operculina_ammonoides
+	_Otu052_2908_Operculina_ammonoides
+	_Otu052_3713_Operculina_ammonoides
+	_Otu052_3714_Operculina_ammonoides
+	_Otu052_3715_Operculina_ammonoides
+	_Otu052_3716_Operculina_ammonoides
+	_Otu052_3717_Operculina_sp1
+	_Otu052_3719_Operculina_LKI27type
+	_Otu052_3726_Operculina_ammonoides
+	_Otu052_3727_Operculina_ammonoides
+	_Otu055_2831_Calcarina_sp2_1
+	_Otu055_2831_Calcarina_sp2_2
+	_Otu055_2832_Calcarina_sp2
+	_Otu055_2887_Calcarina_sp2
+	_Otu055_2891_Calcarina_sp2
+	_Otu071_3501_Neorotalia_gaimardi
+	_Otu071_3502_Neorotalia_gaimardi
+	_Otu071_3505_Neorotalia_gaimardi
+	_Otu071_3506_Neorotalia_gaimardi
+	_Otu071_3507_Neorotalia_gaimardi
+	_Otu071_3509_Neorotalia_gaimardi
+	_Otu071_3510_Neorotalia_gaimardi
+	_Otu079_3737_Borelis_schlumbergeri
+	_Otu082_3911_Heterostegina_depressa
+	_Otu082_3913_Heterostegina_depressa
+	_Otu082_3914_Heterostegina_depressa
+	_Otu082_3915_Heterostegina_depressa
+	_Otu082_3918_Heterostegina_depressa
+	_Otu082_3920_Heterostegina_depressa
+	_Otu094_3712_Nummulites_venosus
+	_Otu096_3503_Neorotalia_calcar
+	_Otu096_3508_Neorotalia_calcar
+	_Otu097_3481_Nummulites_venosus
+	_Otu097_3482_Nummulites_venosus
+	_Otu097_3484_Nummulites_venosus
+	_Otu097_3739_Nummulites_venosus
+	_Otu114_3912_Heterostegina_depressa
+	_Otu114_3916_Heterostegina_depressa_1
+	_Otu114_3916_Heterostegina_depressa_2
+	_Otu114_3919_Heterostegina_depressa
+	_Otu115_3718_Operculina_complanata
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (_Otu012_3749_Sorites_sp:0.0,((_Otu012_3476_Sorites_sp_2:2.0E-6,((((((((((((((((_Otu002_3753_Sorites_sp:0.0,_Otu002_3478_Sorites_sp_2:0.0):0.0,_Otu002_3473_Sorites_sp_2:0.0):0.0,_Otu002_3473_Sorites_sp_1:0.0):0.0,_Otu002_3475_Sorites_sp:0.0):0.0,_Otu002_3471_Sorites_sp_1:0.0):0.0,_Otu002_3478_Sorites_sp_1:0.0):0.0,_Otu002_3751_Sorites_sp:0.0):0.0,_Otu002_3472_Sorites_sp_1:0.0):0.0,_Otu002_3474_Sorites_sp_1:0.0):0.0,_Otu002_3750_Sorites_sp:0.0):0.0,_Otu002_3474_Sorites_sp_2:0.0):0.0,_Otu002_3472_Sorites_sp_2:0.0):0.0,_Otu002_3471_Sorites_sp_2:0.0):3.0E-6,_Otu002_3752_Sorites_sp:3.0E-6)100:0.006779,(((((((((_Otu007_2925_Marginopora_vertebralis_2:0.0,_Otu007_2926_Marginopora_vertebralis_1:0.0):0.0,_Otu007_2921_Marginopora_vertebralis:0.0):0.0,_Otu007_2928_Marginopora_vertebralis_1:0.0):0.0,_Otu007_2928_Marginopora_vertebralis_2:0.0):0.0,_Otu007_2926_Marginopora_vertebralis_2:0.0):0.0,_Otu007_2923_Marginopora_vertebralis:0.0):0.0,_Otu007_2927_Marginopora_vertebralis_2:0.0):0.0,_Otu007_2927_Marginopora_vertebralis_1:0.0):3.0E-6,_Otu007_2925_Marginopora_vertebralis_1:3.0E-6)100:0.028329)86:3.0E-6,(((((_Otu011_3494_Peneroplis_planatus:0.0,_Otu011_3497_Peneroplis_planatus:0.0):2.0E-6,_Otu011_3499_Peneroplis_planatus:3.0E-6)69:3.0E-6,((_Otu016_3500_Peneroplis_planatus:0.0,_Otu016_3496_Peneroplis_planatus:0.0):2.0E-6,_Otu016_3498_Peneroplis_planatus:3.0E-6)100:0.003307)95:3.31E-4,((((((((((_Otu004_3724_Parasorites_sp:0.0,_Otu004_3491_Parasorites_sp:0.0):0.0,_Otu004_3492_Parasorites_sp:0.0):0.0,_Otu004_3485_Parasorites_sp:0.0):0.0,_Otu004_3490_Parasorites_sp:0.0):0.0,_Otu004_3489_Parasorites_sp:0.0):0.0,_Otu004_3487_Parasorites_sp:0.0):0.0,_Otu004_3488_Parasorites_sp:0.0):0.0,_Otu004_3486_Parasorites_sp:0.0):3.0E-6,_Otu004_3723_Parasorites_sp:3.0E-6)100:0.024196,((((((((((((((((((((((_Otu003_3717_Operculina_sp1:0.0,_Otu003_2919_Alveolinella_quoyi:0.0):0.0,_Otu003_2912_Alveolinella_quoyi:0.0):0.0,_Otu003_3517_Alveolinella_quoyi:0.0):0.0,_Otu003_3511_Alveolinella_quoyi:0.0):0.0,_Otu003_3520_Alveolinella_quoyi:0.0):0.0,_Otu003_2911_Alveolinella_quoyi:0.0):0.0,_Otu003_3516_Alveolinella_quoyi:0.0):0.0,_Otu003_2914_Alveolinella_quoyi:0.0):0.0,_Otu003_2909_Alveolinella_quoyi:0.0):0.0,_Otu003_2915_Alveolinella_quoyi:0.0):0.0,_Otu003_3515_Alveolinella_quoyi:0.0):0.0,_Otu003_3514_Alveolinella_quoyi:0.0):0.0,_Otu003_3519_Alveolinella_quoyi:0.0):0.0,_Otu003_3518_Alveolinella_quoyi:0.0):0.0,_Otu003_2913_Alveolinella_quoyi:0.0):0.0,_Otu003_2916_Alveolinella_quoyi:0.0):3.0E-6,_Otu003_3730_Alveolinella_quoyi:3.0E-6)85:2.0E-6,_Otu029_3514_Alveolinella_quoyi:0.006563)100:0.01009,(_Otu020_3737_Borelis_schlumbergeri:3.0E-6,_Otu079_3737_Borelis_schlumbergeri:0.006608)92:0.003411)84:0.003226,_Otu027_3710_Nummulites_venosus:3.0E-6)59:0.003265,_Otu049_3710_Nummulites_venosus:3.0E-6)74:0.040117,((_Otu043_3710_Nummulites_venosus:0.195079,((((((((((_Otu024_3740_Operculinella_cummingi:0.027277,(((((((((_Otu013_3510_Neorotalia_gaimardi:0.0,_Otu013_3504_Neorotalia_gaimardi:0.0):0.0,_Otu013_3501_Neorotalia_gaimardi:0.0):0.0,_Otu013_3509_Neorotalia_gaimardi:0.0):0.0,_Otu013_3505_Neorotalia_gaimardi:0.0):0.0,_Otu013_3506_Neorotalia_gaimardi:0.0):0.0,_Otu013_3507_Neorotalia_gaimardi:0.0):3.0E-6,_Otu013_3502_Neorotalia_gaimardi:3.0E-6)62:3.0E-6,((_Otu019_3508_Neorotalia_calcar:3.0E-6,_Otu019_3503_Neorotalia_calcar:3.0E-6)84:0.0063,(_Otu017_3748_Calcarina_sp1:3.0E-6,_Otu017_3746_Calcarina_sp1:3.0E-6)100:0.021646)43:0.00435)47:0.002693,(((((((_Otu071_3510_Neorotalia_gaimardi:0.0,_Otu071_3501_Neorotalia_gaimardi:0.0):0.0,_Otu071_3505_Neorotalia_gaimardi:0.0):0.0,_Otu071_3507_Neorotalia_gaimardi:0.0):0.0,_Otu071_3509_Neorotalia_gaimardi:0.0):0.0,_Otu071_3506_Neorotalia_gaimardi:0.0):3.0E-6,_Otu071_3502_Neorotalia_gaimardi:3.0E-6)87:2.0E-6,((_Otu096_3508_Neorotalia_calcar:3.0E-6,_Otu096_3503_Neorotalia_calcar:3.0E-6)97:0.003486,(((((((((((((((((_Otu006_2893_Calcarina_sp2:0.0,_Otu006_2888_Calcarina_sp2_2:0.0):0.0,_Otu006_2887_Calcarina_sp2_1:0.0):0.0,_Otu006_2897_Calcarina_sp2:0.0):0.0,_Otu006_2887_Calcarina_sp2_2:0.0):0.0,_Otu006_2830_Calcarina_sp2_2:0.0):0.0,_Otu006_2888_Calcarina_sp2_1:0.0):0.0,_Otu006_2889_Calcarina_sp2:0.0):0.0,_Otu006_2830_Calcarina_sp2_1:0.0):0.0,_Otu006_2832_Calcarina_sp2_1:0.0):0.0,_Otu006_2891_Calcarina_sp2:0.0):0.0,_Otu006_2831_Calcarina_sp2_2:0.0):0.0,_Otu006_2832_Calcarina_sp2_2:0.0):0.0,_Otu006_2890_Calcarina_sp2_2:0.0):0.0,_Otu006_2890_Calcarina_sp2_1:0.0):0.0,_Otu006_2831_Calcarina_sp2_1:0.0):3.0E-6,_Otu006_2892_Calcarina_sp2:3.0E-6)85:0.010516,((((_Otu055_2891_Calcarina_sp2:0.0,_Otu055_2831_Calcarina_sp2_2:0.0):0.0,_Otu055_2831_Calcarina_sp2_1:0.0):0.0,_Otu055_2887_Calcarina_sp2:0.0):3.0E-6,_Otu055_2832_Calcarina_sp2:3.0E-6)81:3.0E-6)99:0.021339)51:0.007051)40:0.007968)100:0.036262)60:0.003523,(((((((((((((((((((((((((((_Otu005_3717_Operculina_sp1:0.0,_Otu005_2903_Operculina_ammonoides:0.0):0.0,_Otu005_3727_Operculina_ammonoides:0.0):0.0,_Otu005_2835_Operculina_ammonoides_2:0.0):0.0,_Otu005_3714_Operculina_ammonoides:0.0):0.0,_Otu005_3713_Operculina_ammonoides:0.0):0.0,_Otu005_3730_Alveolinella_quoyi:0.0):0.0,_Otu005_2898_Operculina_ammonoides:0.0):0.0,_Otu005_2906_Operculina_ammonoides_2:0.0):0.0,_Otu005_2833_Operculina_ammonoides_1:0.0):0.0,_Otu005_2906_Operculina_ammonoides_4:0.0):0.0,_Otu005_2835_Operculina_ammonoides_1:0.0):0.0,_Otu005_2906_Operculina_ammonoides_3:0.0):0.0,_Otu005_2902_Operculina_ammonoides:0.0):0.0,_Otu005_3726_Operculina_ammonoides:0.0):0.0,_Otu005_2833_Operculina_ammonoides_2:0.0):0.0,_Otu005_2900_Operculina_ammonoides:0.0):0.0,_Otu005_2905_Operculina_ammonoides:0.0):0.0,_Otu005_2901_Operculina_ammonoides:0.0):0.0,_Otu005_3716_Operculina_ammonoides:0.0):0.0,_Otu005_2908_Operculina_ammonoides:0.0):0.0,_Otu005_2906_Operculina_ammonoides_1:0.0):0.0,_Otu005_2907_Operculina_ammonoides:0.0):0.0,_Otu005_3731_Alveolinella_quoyi:0.0):0.0,_Otu005_3715_Operculina_ammonoides:0.0):2.0E-6,_Otu005_3719_Operculina_LKI27type:3.0E-6)67:3.0E-6,(((((((((((((((((((((_Otu052_3717_Operculina_sp1:0.0,_Otu052_3713_Operculina_ammonoides:0.0):0.0,_Otu052_2835_Operculina_ammonoides_1:0.0):0.0,_Otu052_2833_Operculina_ammonoides_2:0.0):0.0,_Otu052_2833_Operculina_ammonoides_1:0.0):0.0,_Otu052_3727_Operculina_ammonoides:0.0):0.0,_Otu052_2906_Operculina_ammonoides_2:0.0):0.0,_Otu052_2898_Operculina_ammonoides:0.0):0.0,_Otu052_2906_Operculina_ammonoides_3:0.0):0.0,_Otu052_3714_Operculina_ammonoides:0.0):0.0,_Otu052_2835_Operculina_ammonoides_2:0.0):0.0,_Otu052_2902_Operculina_ammonoides:0.0):0.0,_Otu052_2906_Operculina_ammonoides_1:0.0):0.0,_Otu052_2908_Operculina_ammonoides:0.0):0.0,_Otu052_2907_Operculina_ammonoides:0.0):0.0,_Otu052_3715_Operculina_ammonoides:0.0):0.0,_Otu052_3716_Operculina_ammonoides:0.0):0.0,_Otu052_2900_Operculina_ammonoides:0.0):0.0,_Otu052_2903_Operculina_ammonoides:0.0):0.0,_Otu052_2906_Operculina_ammonoides_4:0.0):0.0,_Otu052_3726_Operculina_ammonoides:0.0):3.0E-6,_Otu052_3719_Operculina_LKI27type:3.0E-6)96:0.0105)91:0.022083,(((((_Otu014_3916_Heterostegina_depressa_2:0.0,_Otu014_3919_Heterostegina_depressa:0.0):0.0,_Otu014_3912_Heterostegina_depressa:0.0):3.0E-6,_Otu014_3916_Heterostegina_depressa_1:3.0E-6)84:0.006948,((((_Otu114_3916_Heterostegina_depressa_2:0.0,_Otu114_3919_Heterostegina_depressa:0.0):0.0,_Otu114_3912_Heterostegina_depressa:0.0):3.0E-6,_Otu114_3916_Heterostegina_depressa_1:3.0E-6)90:0.006966,(((((_Otu082_3915_Heterostegina_depressa:0.0,_Otu082_3911_Heterostegina_depressa:0.0):0.0,_Otu082_3920_Heterostegina_depressa:0.0):0.0,_Otu082_3918_Heterostegina_depressa:0.0):0.0,_Otu082_3913_Heterostegina_depressa:0.0):2.0E-6,_Otu082_3914_Heterostegina_depressa:2.0E-6)77:2.0E-6)70:0.010541)56:3.0E-6,((((((((_Otu009_3915_Heterostegina_depressa_2:0.0,_Otu009_3918_Heterostegina_depressa:0.0):0.0,_Otu009_3911_Heterostegina_depressa:0.0):0.0,_Otu009_3914_Heterostegina_depressa:0.0):0.0,_Otu009_3917_Heterostegina_depressa_1:0.0):0.0,_Otu009_3917_Heterostegina_depressa_2:0.0):0.0,_Otu009_3913_Heterostegina_depressa:0.0):0.0,_Otu009_3920_Heterostegina_depressa:0.0):2.0E-6,_Otu009_3915_Heterostegina_depressa_1:2.0E-6)51:3.0E-6)80:0.003399)66:0.010899)64:0.006537,(((_Otu018_3720_Operculina_complanata:2.0E-6,_Otu018_3718_Operculina_complanata:3.0E-6)83:2.0E-6,(_Otu115_3718_Operculina_complanata:2.0E-6,(((_Otu097_3739_Nummulites_venosus:0.0,_Otu097_3482_Nummulites_venosus:0.0):0.0,_Otu097_3481_Nummulites_venosus:0.0):2.0E-6,_Otu097_3484_Nummulites_venosus:3.0E-6)81:0.006868)72:0.010407)50:0.006851,((((((_Otu010_3739_Nummulites_venosus:0.0,_Otu010_3483_Nummulites_venosus:0.0):0.0,_Otu010_3484_Nummulites_venosus:0.0):0.0,_Otu010_3481_Nummulites_venosus:0.0):0.0,_Otu010_3710_Nummulites_venosus:0.0):0.0,_Otu010_3482_Nummulites_venosus:0.0):3.0E-6,_Otu010_3722_Nummulites_venosus:3.0E-6)58:2.0E-6)72:0.003514)100:0.043005,(_Otu032_3709_Nummulites_venosus:0.017988,(((((_Otu015_3721_Nummulites_venosus:0.0,_Otu015_3743_Amphistegina_lessonii:0.0):0.0,_Otu015_3742_Amphistegina_lessonii:0.0):3.0E-6,_Otu015_3711_Nummulites_venosus:3.0E-6)74:3.0E-6,_Otu033_3519_Alveolinella_quoyi:0.006777)100:0.043262,((((((((((_Otu008_2941_Amphistegina_radiata:0.0,_Otu008_2946_Amphistegina_radiata:0.0):0.0,_Otu008_2947_Amphistegina_radiata_2:0.0):0.0,_Otu008_2939_Amphistegina_radiata:0.0):0.0,_Otu008_2934_Amphistegina_radiata:0.0):0.0,_Otu008_2942_Amphistegina_radiata:0.0):0.0,_Otu008_2947_Amphistegina_radiata_1:0.0):0.0,_Otu008_2936_Amphistegina_radiata:0.0):3.0E-6,_Otu008_2940_Amphistegina_radiata:3.0E-6)80:3.0E-6,_Otu042_2936_Amphistegina_radiata:0.006805)99:0.016061,_Otu025_3741_Amphistegina_papillosa:0.02248)100:0.038691)100:0.032406)100:0.022085)98:0.021206,(_Otu021_3712_Nummulites_venosus:3.0E-6,(_Otu037_3712_Nummulites_venosus:0.00333,_Otu094_3712_Nummulites_venosus:0.010279)60:3.0E-6)77:3.0E-6)90:0.00637,(((_Otu028_3709_Nummulites_venosus:3.0E-6,_Otu028_3711_Nummulites_venosus:3.0E-6)100:0.018417,(_Otu023_3721_Nummulites_venosus:2.0E-6,_Otu023_3711_Nummulites_venosus:2.0E-6)100:0.029442)99:0.014549,(_Otu040_3709_Nummulites_venosus:0.074528,_Otu036_3710_Nummulites_venosus:0.071002)95:0.018812)83:0.007689)89:0.019069,_Otu026_3709_Nummulites_venosus:0.035781)95:0.014991,_Otu030_3710_Nummulites_venosus:0.095878)97:0.07551,_Otu031_3712_Nummulites_venosus:3.0E-6)98:0.20968,_Otu022_3711_Nummulites_venosus:0.537503)92:0.174338)57:0.152878,_Otu035_3731_Alveolinella_quoyi:0.466513)78:0.046382)93:0.042011)87:0.010888)91:0.013295,((((((((((((((((((((((_Otu001_3709_Nummulites_venosus:0.0,_Otu001_2931_Amphisorus_SpS_2:0.0):0.0,_Otu001_3705_Amphisorus_SpL:0.0):0.0,_Otu001_3706_Amphisorus_SpL:0.0):0.0,_Otu001_2932_Amphisorus_SpS:0.0):0.0,_Otu001_3699_Amphisorus_SpL:0.0):0.0,_Otu001_3762_Amphisorus_SpS:0.0):0.0,_Otu001_3760_Amphisorus_SpS:0.0):0.0,_Otu001_3703_Amphisorus_SpL:0.0):0.0,_Otu001_3759_Amphisorus_SpL:0.0):0.0,_Otu001_3701_Amphisorus_SpL:0.0):0.0,_Otu001_3700_Amphisorus_SpL:0.0):0.0,_Otu001_3702_Amphisorus_SpL:0.0):0.0,_Otu001_2931_Amphisorus_SpS_1:0.0):0.0,_Otu001_2920_Amphisorus_SpS:0.0):0.0,_Otu001_2933_Amphisorus_SpS:0.0):0.0,_Otu001_3704_Amphisorus_SpL:0.0):0.0,_Otu001_2922_Amphisorus_SpS:0.0):0.0,_Otu001_3761_Amphisorus_SpS:0.0):0.0,_Otu001_3707_Amphisorus_SpL:0.0):0.0,_Otu001_2924_Amphisorus_SpS:0.0):0.0,_Otu001_3708_Amphisorus_SpL:0.0):3.0E-6,_Otu001_3710_Nummulites_venosus:3.0E-6)93:2.0E-6)96:0.006764)100:0.013841):3.0E-6,_Otu012_3473_Sorites_sp:0.0):0.0,_Otu012_3476_Sorites_sp_1:0.0);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Adobe Devanagari";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="Adobe Devanagari";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Adobe Devanagari";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=2;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="Midpoint";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
