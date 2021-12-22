@@ -5,7 +5,7 @@
 
 Elsa B. Girard 1,2, Anouk Langerak 1, Jamaluddin Jompa 3, Owen S. Wangensteen 4, Jan-Niklas Macher 1, Willem Renema 1,2
 
-1 Naturalis Biodiversity Center, Darwinweg 2, 2333 CR Leiden, the Netherlands\ 
+1 Naturalis Biodiversity Center, Darwinweg 2, 2333 CR Leiden, the Netherlands\
 2 IBED, University of Amsterdam, Sciencepark 904, 1098 XH Amsterdam, the Netherlands\
 3 Marine Science Department, Faculty of Marine Science and Fisheries, Hasanuddin University, Jl. Perintis Kemerdekaan Km. 10 Tamalenrea, Makassar, 90245, Indonesia\
 4 Norwegian College of Fishery Science, UiT - The Arctic University of Norway, Muninbakken 21, 9019 Tromsø, Norway
