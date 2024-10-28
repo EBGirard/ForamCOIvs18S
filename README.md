@@ -31,4 +31,4 @@ Protist, Benthic foraminifera, High-throughput sequencing, Metabarcoding, Intra-
 
 # Citation
 
-Girard, E.B., Langerak, A., Jompa, J., Wangensteen, O.S., Macher, J.-N., Renema, W., 2022. Mitochondrial Cytochrome Oxidase Subunit 1: A Promising Molecular Marker for Species Identification in Foraminifera. Frontiers in Marine Science 9.
+Girard, E.B., Langerak, A., Jompa, J., Wangensteen, O.S., Macher, J.-N., Renema, W., 2022. Mitochondrial Cytochrome Oxidase Subunit 1: A Promising Molecular Marker for Species Identification in Foraminifera. Front. Mar. Sci. 9. https://doi.org/10.3389/fmars.2022.809659
