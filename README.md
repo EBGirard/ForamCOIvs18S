@@ -28,3 +28,7 @@ Protist, Benthic foraminifera, High-throughput sequencing, Metabarcoding, Intra-
 2. Open R studio and the R code file
 3. Run the section or the analysis of the code that is of interest
 4. Cite us, thank you :-)
+
+# Citation
+
+Girard, E.B., Langerak, A., Jompa, J., Wangensteen, O.S., Macher, J.-N., Renema, W., 2022. Mitochondrial Cytochrome Oxidase Subunit 1: A Promising Molecular Marker for Species Identification in Foraminifera. Frontiers in Marine Science 9.
