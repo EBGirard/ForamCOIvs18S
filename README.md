@@ -23,7 +23,7 @@ Traditional morphological methods for species identification are highly time con
 ## Key words: 
 Protist, Benthic foraminifera, High-throughput sequencing, Metabarcoding, Intra-genomic variation
 
-# Supplementary files (R code and dataset): How-to-do
+# R code and dataset: How-to-do
 1. Download the dataset folder and the R code
 2. Open R studio and the R code file
 3. Run the section or the analysis of the code that is of interest
